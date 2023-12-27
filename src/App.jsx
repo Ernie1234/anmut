@@ -1,30 +1,22 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Route, Router } from "react-router-dom";
 
 import { About, Contact, Home, Services } from "./routes";
 import ErrorPage from "./error-page";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/services",
-    element: <Services />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-]);
+import { NavBar } from "./components";
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <NavBar />
+      <Router>
+        <Route exact path="/" component={Home} />
+        <Route path="/services" component={Services} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route component={ErrorPage} />
+      </Router>
+    </>
+  );
 }
 
 export default App;
