@@ -1,8 +1,22 @@
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import { IoMenu } from "react-icons/io5";
+import { IoCloseOutline, IoMenu } from "react-icons/io5";
 
 function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const smallScreenMenuOperation = () => {
+    const screenWidth =
+      window.innerWidth || document.documentElement.clientWidth;
+    if (screenWidth < 675) {
+      setIsMenuOpen(!isMenuOpen);
+    }
+  };
   return (
     <nav className="bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -34,18 +48,30 @@ function NavBar() {
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden "
             aria-controls="navbar-cta"
             aria-expanded="false"
+            onClick={handleClick}
           >
-            <IoMenu size={35} />
+            {isMenuOpen ? (
+              <IoCloseOutline size={35} color=" rgb(248 113 113)" />
+            ) : (
+              <IoMenu size={35} color="rgb(251 191 36)" />
+            )}
           </button>
         </div>
         <div
-          className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          id="navbar-cta"
+          className={
+            isMenuOpen
+              ? `items-center justify-between block w-full md:hidden md:w-auto
+        md:order-1 transition duration-250`
+              : `items-center justify-between hidden w-full md:flex md:w-auto
+        md:order-1 transition duration-250`
+          }
+          id="navbar-cta "
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
             <li>
               <NavLink
                 to="/"
+                onClick={smallScreenMenuOperation}
                 className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-400 hover:text-gray-400"
                 aria-current="page"
               >
@@ -55,6 +81,7 @@ function NavBar() {
             <li>
               <NavLink
                 to="/about"
+                onClick={smallScreenMenuOperation}
                 className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-400 hover:text-gray-400"
               >
                 About
@@ -63,6 +90,7 @@ function NavBar() {
             <li>
               <NavLink
                 to="/services"
+                onClick={smallScreenMenuOperation}
                 className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-400 hover:text-gray-400"
               >
                 Services
@@ -71,6 +99,7 @@ function NavBar() {
             <li>
               <NavLink
                 to="/contact"
+                onClick={smallScreenMenuOperation}
                 className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-400 hover:text-gray-400"
               >
                 Contact
