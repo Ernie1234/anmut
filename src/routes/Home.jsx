@@ -1,9 +1,10 @@
-import { Jumbotron } from "../components";
+import { Banner, Jumbotron } from "../components";
 
 function Home() {
   return (
     <>
       <Jumbotron />
+      <Banner />
     </>
   );
 }
