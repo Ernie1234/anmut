@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {},
     // fontFamily: {
-    //   display: ["Oswald"],
-    //   body: ['"Open Sans"'],
+    // display: ["Oswald", "Lato"],
+    // body: ['"Open Sans"'],
     // },
   },
   plugins: [],
