@@ -18,7 +18,7 @@ function NavBar() {
     }
   };
   return (
-    <nav className="bg-gray-900">
+    <nav className="bg-gray-900 shadow-lg">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
