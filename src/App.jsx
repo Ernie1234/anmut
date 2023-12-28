@@ -1,20 +1,20 @@
-import { Route, Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
-import { About, Contact, Home, Services } from "./routes";
-import ErrorPage from "./error-page";
+import { About, Contact, Home, NotFound, Services } from "./routes";
+// import ErrorPage from "./error-page";
 import { NavBar } from "./components";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Router>
-        <Route exact path="/" component={Home} />
-        <Route path="/services" component={Services} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route component={ErrorPage} />
-      </Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 }
