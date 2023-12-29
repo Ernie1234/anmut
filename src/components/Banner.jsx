@@ -7,8 +7,8 @@ function Banner() {
   const [isBannerOpen, setIsBannerOpen] = useState(true);
 
   const handleClosed = () => {
-    setIsBannerOpen(!isBannerOpen)
-  }
+    setIsBannerOpen(!isBannerOpen);
+  };
   return (
     <>
       {isBannerOpen && (
@@ -19,7 +19,7 @@ function Banner() {
         >
           <div className="mb-4 md:mb-0 md:me-4">
             <h2 className="mb-1 text-base font-semibold text-gray-900 dark:text-white">
-              Discover Our Amazing Property Selection
+              Discover Our Amazing Property Selection by josh
             </h2>
             <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               Experience sustainable living in our modern properties
