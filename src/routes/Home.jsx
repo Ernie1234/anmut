@@ -1,12 +1,19 @@
-import { Banner, Jumbotron } from "../components";
+import { Banner, CompanyInfo, Jumbotron, Section } from "../components";
 
 function Home() {
   return (
     <>
       <Jumbotron />
-      <Banner />
+      <CompanyInfo />
+      <Section />
+      {/* <Banner /> */}
     </>
   );
 }
 
 export default Home;
+
+//truehost
+//digitalOcean
+//namecheap
+//hostinger
