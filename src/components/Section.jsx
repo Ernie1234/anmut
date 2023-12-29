@@ -2,11 +2,10 @@ import { MdConstruction, MdRealEstateAgent } from "react-icons/md";
 import { LuConstruction } from "react-icons/lu";
 import { LuChevronRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import CompanyInfo from "./CompanyInfo";
 
 function Section() {
   return (
-    <div className="bg-slate-900 py-10 md:py-16 lg:py-20 lg:pt-72 px-16 md:px20 lg:px-28 relative">
+    <div className=" py-10 md:py-16 lg:py-20 lg:pt-72 px-16 md:px20 lg:px-28 bg-gradient-to-b from-neutral-900 to-slate-900">
       <div className="grid md:grid-cols-3 gap-8">
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
@@ -76,10 +75,6 @@ function Section() {
             <LuChevronRight size={24} />
           </Link>
         </div>
-      </div>
-
-      <div className="absolute top-0 mx-auto w-full">
-        <CompanyInfo />
       </div>
     </div>
   );
