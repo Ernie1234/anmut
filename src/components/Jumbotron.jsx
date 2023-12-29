@@ -5,7 +5,8 @@ import { GoChevronRight } from "react-icons/go";
 
 function Jumbotron() {
   return (
-    <section className="bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-gray-800 bg-blend-multiply">
+    <section className="bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-gray-800 bg-blend-multiply shadow-lg">
+      <div className="w-full h-full bg-gradient-to-b from-red-900"></div>
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           Creating exceptional and sustainable real estate projects

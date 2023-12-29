@@ -4,9 +4,9 @@ function Home() {
   return (
     <>
       <Jumbotron />
-      <CompanyInfo />
+      {/* <CompanyInfo /> */}
       <Section />
-      {/* <Banner /> */}
+      <Banner />
     </>
   );
 }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Section() {
   return (
-    <div className=" py-10 md:py-16 lg:py-20 lg:pt-72 px-16 md:px20 lg:px-28 bg-gradient-to-b from-neutral-900 to-slate-900">
+    <div className=" py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-slate-900">
       <div className="grid md:grid-cols-3 gap-8">
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">

@@ -1,7 +1,7 @@
 function CompanyInfo() {
   return (
-    <div className="w-full ">
-      <ul className="space-y-4 w-72 bg-amber-500 rounded-md list-disc py-5 pl-10 px-2 capitalize font-semibold -top-10">
+    <div className="w-full bg-slate-900 flex justify-center items-center">
+      <ul className="space-y-4 w-72 bg-amber-500 rounded-md list-disc py-5 pl-10 px-2 capitalize font-semibold">
         <li className="w-full text-slate-100">
           Quality control system, 100% Satisfaction guarantee
         </li>
