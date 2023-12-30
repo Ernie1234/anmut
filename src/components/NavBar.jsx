@@ -22,11 +22,16 @@ function NavBar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="flex items-center justify-center  rtl:space-x-reverse"
         >
-          <span className="self-center text-xl md:text-2xl lg:text-3xl  tracking-widest font-bold whitespace-nowrap dark:text-white">
+          <img
+            src="/src/assets/logo-main.png"
+            className=" h-14"
+            alt="anmut-logo"
+          />
+          {/* <span className="self-center text-xl md:text-2xl lg:text-3xl  tracking-widest font-bold whitespace-nowrap dark:text-white">
             ANMUT
-          </span>
+          </span> */}
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link to="/">

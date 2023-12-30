@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import { About, Contact, Home, NotFound, Services } from "./routes";
 // import ErrorPage from "./error-page";
-import { NavBar } from "./components";
+import { Footer, NavBar } from "./components";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

@@ -10,17 +10,14 @@ function Section() {
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
             <MdConstruction className="me-1.5" size={25} />
-            Design
+            Concept
           </span>
           <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
-            Discover Our Innovative Real Estate Solutions
+            Our Vision
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
-            At our estate and property development company, we pride ourselves
-            on creating exceptional and sustainable real estate projects that
-            meet the needs of a modern society. Our team of experts works
-            tirelessly to bring your vision to life, ensuring every detail is
-            meticulously planned and executed.
+            At Anmut, we envision a future where communities are revolutionized
+            through the ground-breaking construction solutions we offer’.
           </p>
           <Link
             to="/about"
@@ -33,16 +30,18 @@ function Section() {
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
           <span className="text-lg font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-purple-400 mb-2">
             <LuConstruction className="me-1.5" size={25} />
-            Construction
+            Identity
           </span>
           <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
-            Experience Luxury Living Like Never Before
+            who we are
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
-            With our range of premium properties, you can indulge in the
-            ultimate luxury living experience. From stunning penthouses with
-            panoramic views to spacious villas nestled in serene surroundings,
-            we offer the perfect home for every lifestyle.
+            An estate and property development company that specialize in
+            creating exceptional and sustainable real estate projects that meets
+            the need of a modern society. We utilize sustainable building
+            practices and the latest technology to ensure our projects are
+            energy-efficient, cost-effective, and completed on time and on
+            budget.
           </p>
           <Link
             to="/project"
@@ -55,16 +54,14 @@ function Section() {
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
             <MdRealEstateAgent className="me-1.5" size={25} />
-            Saving
+            Work
           </span>
           <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
-            Invest in Your Future with Confidence
+            what we do
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
-            Our real estate investment opportunities provide a secure and
-            lucrative way to grow your wealth. With our expert guidance and a
-            portfolio of carefully selected properties, you can invest in your
-            future with confidence.
+            We revolutionize communities through innovative construction,
+            building solutions and collaborative partnerships
           </p>
 
           <Link
