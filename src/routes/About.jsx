@@ -1,22 +1,32 @@
-import { Header } from "../components";
-
 function About() {
   return (
     <>
-      <Header
-        title="About Us"
-        image="https://images.pexels.com/photos/396303/pexels-photo-396303.jpeg?auto=compress&cs=tinysrgb&w=600"
+      <header
+        className="bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-gray-800 bg-blend-multiply shadow-lg relative"
+        data-carousel-item
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        nam repudiandae voluptatem magni voluptates atque fugit error sint natus
-        ad repellat facilis possimus, debitis doloribus?
-      </Header>
+        <div className="w-full h-full bg-gradient-to-t from-slate-900/50 absolute z-0"></div>
+        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40 z-30">
+          <h2 className="text-md md:text-lg lg:text-xl font-bold tracking-wider uppercase text-white ">
+            about us
+          </h2>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
+            Creating{" "}
+            <span className="text-amber-300 underline decoration-double decoration-amber-500 leading-normal">
+              {" "}
+              exceptional and sustainable
+            </span>{" "}
+            real estate projects
+          </h1>
+        </div>
+      </header>
 
-      <section className="about__story">
-        <div className="container grid grid-cols-2 gap-5">
-          <div className="rounded-full overflow-hidden skew-y-6 transition-all hover:skew-y-0 lg:w-[60%]">
+      <section className="bg-slate-800 text-white">
+        <div className="px-4 md:px-8 lg:px-12 mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-2 p-10">
+          <div className="w-full h-full rounded-3xl saturate-50 hover:filter-none hover:rounded-md overflow-hidden skew-y-3 transition-all hover:skew-y-0  ">
             <img
-              src="https://images.pexels.com/photos/388830/pexels-photo-388830.jpeg?auto=compress&cs=tinysrgb&w=600"
+              className=" max-w-full h-full object-cover"
+              src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="StoryImage"
             />
           </div>

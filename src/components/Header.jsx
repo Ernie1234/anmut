@@ -1,6 +1,6 @@
 function Header({ title, image, children }) {
   return (
-    <header className="header">
+    <header className="h-4/5 w-full overflow-hidden">
       <div className="header__container">
         <div className="header__container--bg">
           <img src={image} alt="Image" />
