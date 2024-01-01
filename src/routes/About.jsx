@@ -21,8 +21,8 @@ function About() {
         </div>
       </header>
 
-      <section className="bg-slate-800 text-white">
-        <div className="px-4 md:px-8 lg:px-12 mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-2 p-10">
+      <section className="bg-slate-800 text-white pt-8">
+        <div className="px-4 md:px-8 lg:px-12 mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-10 p-10">
           <div className="w-full h-full rounded-3xl saturate-50 hover:filter-none hover:rounded-md overflow-hidden skew-y-3 transition-all hover:skew-y-0  ">
             <img
               className=" max-w-full h-full object-cover"
@@ -30,21 +30,20 @@ function About() {
               alt="StoryImage"
             />
           </div>
-          <div className="about__section--content">
-            <h1 className="mb-2">Our Story</h1>
-            <p className="mb-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              fugit aliquam repudiandae fugiat aperiam dolor modi rem asperiores
-              dolorum incidunt sequi dolores quasi natus odio explicabo adipisci
-              commodi nobis nulla doloremque illo. Eum optio molestiae ipsam nam
-              natus nulla nobis!
-            </p>
+          <div className="flex flex-col justify-center items-start ">
+            <h1 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-wide underline">
+              who we are
+            </h1>
+            <p className="mt-3 leading-normal">leading-relaxed</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              mollitia nesciunt temporibus ad officia eveniet consequuntur ab
-              quod culpa dignissimos!
+              An estate and property development company that specialize in
+              creating exceptional and sustainable real estate projects that
+              meets the need of a modern society. We utilize sustainable
+              building practices and the latest technology to ensure our
+              projects are energy-efficient, cost-effective, and completed on
+              time and on budget.
             </p>
-            <p>
+            <p className="mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur laboriosam nulla quibusdam velit aliquam inventore.
             </p>
