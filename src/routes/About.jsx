@@ -7,7 +7,7 @@ function About() {
       >
         <div className="w-full h-full bg-gradient-to-t from-slate-900/50 absolute z-0"></div>
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40 z-30">
-          <h2 className="text-md md:text-lg lg:text-xl font-bold tracking-wider uppercase text-white ">
+          <h2 className="text-md md:text-lg lg:text-xl font-bold tracking-wider uppercase text-white">
             about us
           </h2>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
