@@ -25,7 +25,50 @@ function Contact() {
           </h5>
         </div>
       </head>
-      <div className="bg-orange-500 w-full h-full grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10"></div>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
+        <form
+          action=""
+          className="col-start-1 col-end-3 bg-orange-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg"
+        >
+          <div>
+            <label htmlFor="name" className="sr-only">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              className="py-3 px-1 w-full bg-white rounded-md text-left text-sm
+          text-black placeholder-gray-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label htmlFor="email" className="sr-only">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              className="
+          py-3 px-1 w-full bg-white rounded-md  text-left text-sm
+          text-black placeholder-gray-400 focus:outline-none"
+            />
+          </div>
+          <button
+            type="submit"
+            className="col-start-1 col-end-3 group relative w-full flex justify-center 
+          py-3.5 text-lg font-medium text-white transition duration-20
+          ease-in-out bg-slate-900 rounded-sm md:rounded-md lg:rounded-lg
+          hover:bg-slate-900 focus:z-10"
+          >
+            Submit Request
+          </button>
+        </form>
+        <div className="col-start-3 col-end-4 bg-orange-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg"></div>
+      </div>
     </div>
   );
 }
