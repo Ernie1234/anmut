@@ -6,18 +6,32 @@ function About() {
         data-carousel-item
       >
         <div className="w-full h-full bg-gradient-to-t from-slate-900/50 absolute z-0"></div>
-        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40 z-30">
+        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-32 z-30">
           <h2 className="text-md md:text-lg lg:text-xl font-bold tracking-wider uppercase text-white">
             about us
           </h2>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
-            Creating{" "}
+            Tranforming{" "}
             <span className="text-amber-300 underline decoration-double decoration-amber-500 leading-normal">
               {" "}
-              exceptional and sustainable
+              Dreams
             </span>{" "}
-            real estate projects
+            into Concrete
+            <span className="text-amber-300 underline decoration-double decoration-amber-500 leading-normal">
+              {" "}
+              Realities!
+            </span>
           </h1>
+          <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+            We specialize in estate development and construction projects that
+            redefine urban living. Our passion for excellence and a commitment
+            to innovation have propelled us to the forefront of the industry. We
+            believe in revolutionizing communities through innovative
+            construction, building solutions, and collaborative partnerships. By
+            utilizing sustainable building practices and the latest technology,
+            we ensure our projects are energy-efficient, cost-effective, and
+            completed on time and on budget.
+          </p>
         </div>
       </header>
 
