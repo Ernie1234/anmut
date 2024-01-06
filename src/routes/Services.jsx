@@ -1,14 +1,17 @@
 import { PiProjectorScreenChart } from "react-icons/pi";
 import { IoChatbubblesOutline, IoConstructSharp } from "react-icons/io5";
-import { RiEmotionHappyLine } from "react-icons/ri";
+import { RiCustomerService2Line, RiEmotionHappyLine } from "react-icons/ri";
+import { MdOutlineArchitecture } from "react-icons/md";
+import { SiRenovatebot } from "react-icons/si";
 
 import { Link } from "react-router-dom";
 
 function Services() {
   return (
     <div>
-      <div className=" flex relative z-20 items-center  overflow-hidden bg-cover bg-no-repeat bg-[url('https://www.mhwilliams.com/wp-content/uploads/2020/01/11.jpeg')] bg-gray-800 bg-blend-multiply shadow-lg">
-        <div className="container mx-auto px-6 flex relative py-16  max-w-screen-xl">
+      <div className=" flex relative z-10 items-center  overflow-hidden bg-cover bg-no-repeat bg-[url('https://www.mhwilliams.com/wp-content/uploads/2020/01/11.jpeg')] bg-gray-800 bg-blend-multiply shadow-lg">
+        <div className="w-full h-full bg-gradient-to-t from-slate-800/90 to-slate-900/90 absolute z-200"></div>
+        <div className="container mx-auto px-6 flex relative py-16  max-w-screen-xl z-30">
           <div className="sm:w-2/3 lg:w-2/5 flex flex-col justify-center relative z-20 ">
             <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
             <h1 className="uppercase text-4xl md:text-6xl  font-black  leading-none text-white">
@@ -43,7 +46,7 @@ function Services() {
           <div className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16">
             <img
               src="/src/assets/Construction-PNG-Image.png"
-              className="w-full shadow-lg"
+              className="w-full"
             />
           </div>
         </div>
@@ -118,15 +121,19 @@ function Services() {
           </div>
         </div>
       </div>
+
+      {/* our services section: what we are doing? */}
       <div
-        className="flex items-center overflow-hidden bg-cover bg-no-repeat bg-[url('/src/assets/Daco_4142804.png')] bg-gray-800 bg-blend-multiply shadow-lg relative"
+        className="flex items-center overflow-hidden bg-cover bg-no-repeat bg-[url('')] bg-gray-800 bg-blend-multiply shadow-lg relative "
         id="our--services"
       >
-        <div>
-          <div className="hidden lg:block absolute bottom-0 right-0 w-2/5">
-            <img src="/src/assets/Daco_4142804.png" className="w-full" />
-          </div>
+        <div className="hidden lg:block absolute bottom-0 right-0 w-2/5">
+          <img
+            src="/src/assets/image-from-rawpixel-id-12064744-original.png"
+            className="w-full"
+          />
         </div>
+
         <div className="container mx-auto px-6 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white">
           <div id="section--1" className="flex flex-col justify-center">
             <div className="flex items-center gap-3 md:gap-7">
@@ -140,6 +147,69 @@ function Services() {
               We revolutionize communities through innovative construction,
               building solutions and collaborative partnerships.
             </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-4 md:mt-8 max-w-screen-sm gap-6 md:gap-8 lg:gap-10">
+            {/* 1st service card */}
+            <Link
+              to="/contact"
+              className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            >
+              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+                <IoChatbubblesOutline size={45} />
+              </div>
+              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+                <h6 className="font-semibold mb-3">Fast Operation</h6>
+                <p className="text-gray-400 text-sm">
+                  It is a long establish fact of hard workers
+                </p>
+              </div>
+            </Link>
+            {/* 2nd service card */}
+            <Link
+              to="/contact"
+              className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            >
+              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+                <RiCustomerService2Line size={45} />
+              </div>
+              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+                <h6 className="font-semibold mb-3">Consultation</h6>
+                <p className="text-gray-400 text-sm">
+                  It is a long establish fact of hard workers
+                </p>
+              </div>
+            </Link>
+            {/* 3rd service card */}
+            <Link
+              to="/contact"
+              className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            >
+              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+                <SiRenovatebot size={45} />
+              </div>
+              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+                <h6 className="font-semibold mb-3">Renovation</h6>
+                <p className="text-gray-400 text-sm">
+                  It is a long establish fact of hard workers
+                </p>
+              </div>
+            </Link>
+            {/* 4th service card */}
+            <Link
+              to="/contact"
+              className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            >
+              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+                <MdOutlineArchitecture size={45} />
+              </div>
+              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+                <h6 className="font-semibold mb-3">Architecture</h6>
+                <p className="text-gray-400 text-sm">
+                  It is a long establish fact of hard workers
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

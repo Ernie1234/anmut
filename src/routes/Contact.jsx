@@ -4,37 +4,43 @@ function Contact() {
   return (
     <div className="bg-stone-800 text-white p-8 md:p-12 lg:p-16 ">
       <div className="mb-5 md:mb-10 text-center">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
+        <h1 className="mb-4 text-3xl font-extrabold tracking-tighter text-white md:text-5xl lg:text-6xl">
           Leading way in bilding & Civil contruction
         </h1>
-        <div className="flex gap-3 md:gap-6 lg:gap-20 justify-center mt-5 md:mt-8">
+        <div className="flex gap-2 md:gap-6 lg:gap-20 justify-center mt-5 md:mt-8">
           <h5 className="flex items-center gap-1 md:gap-2">
             <IoCheckmarkCircle />
-            <p className="capitalize text-white text-base md:text-md lg:text-lg">
+            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
               Professional staff
             </p>
           </h5>
           <h5 className="flex items-center gap-1 md:gap-2">
             <IoCheckmarkCircle />
-            <p>100% satisfaction</p>
+            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
+              100% satisfaction
+            </p>
           </h5>
           <h5 className="flex items-center gap-1 md:gap-2">
             <IoCheckmarkCircle />
-            <p>accurate testing</p>
+            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
+              accurate testing
+            </p>
           </h5>
           <h5 className="flex items-center gap-1 md:gap-2">
             <IoCheckmarkCircle />
-            <p>transparent price</p>
+            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
+              transparent price
+            </p>
           </h5>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <form
           action=""
-          className="col-start-1 col-end-3 bg-orange-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+          className="md:col-start-1 md:col-end-3 bg-orange-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
-          <div className="col-start-1 col-end-3 w-full">
-            <h2 className="font-bold tracking-normal capitalize text-white text-sm md:text-base lg:text-2xl">
+          <div className="md:col-start-1 md:col-end-3 w-full">
+            <h2 className="font-bold tracking-normal capitalize text-white  md:text-base lg:text-2xl">
               Require for a service
             </h2>
             <p className="font-normal text-xl text-white pt-1 md:pt-3">
@@ -66,7 +72,7 @@ function Contact() {
               name="email"
               placeholder="Enter Your Email"
               className="
-          py-4 px-3 w-full bg-white rounded-md  text-left text-sm
+          py-4 px-3 w-full bg-white rounded-md text-left text-sm
           text-black placeholder-gray-400 focus:outline-none"
             />
           </div>
@@ -93,7 +99,7 @@ function Contact() {
               name="service"
               placeholder="Enter Your Required Service"
               className="
-          py-4 px-3 w-full bg-white rounded-md  text-left text-sm
+          py-4 px-3 w-full bg-white rounded-md text-left text-sm
           text-black placeholder-gray-400 focus:outline-none"
             />
           </div>
@@ -107,7 +113,7 @@ function Contact() {
             Submit Request
           </button>
         </form>
-        <div className="col-start-3 col-end-4 bg-orange-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg">
+        <div className="md:col-start-3 md:col-end-4 bg-orange-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg">
           <h3 className="font-semibold capitalize text-xl">Contact Info</h3>
           <div className="mt-3">
             <p className="capitalize text-lg text-white font-medium">
