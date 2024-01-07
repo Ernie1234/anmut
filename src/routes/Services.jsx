@@ -44,10 +44,7 @@ function Services() {
             </div>
           </div>
           <div className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16">
-            <img
-              src="/src/assets/Construction-PNG-Image.png"
-              className="w-full"
-            />
+            <img src="/assets/Construction-PNG-Image.png" className="w-full" />
           </div>
         </div>
       </div>
@@ -117,7 +114,7 @@ function Services() {
             </div>
           </div>
           <div className="hidden lg:flex justify-end items-center">
-            <img src="/src/assets/Daco_4142804.png" className="w-full" />
+            <img src="/assets/Daco_4142804.png" className="w-full" />
           </div>
         </div>
       </div>
@@ -129,7 +126,7 @@ function Services() {
       >
         <div className="hidden lg:block absolute bottom-0 right-0 w-2/5">
           <img
-            src="/src/assets/image-from-rawpixel-id-12064744-original.png"
+            src="/assets/image-from-rawpixel-id-12064744-original.png"
             className="w-full"
           />
         </div>

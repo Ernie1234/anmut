@@ -24,11 +24,7 @@ function NavBar() {
           to="/"
           className="flex items-center justify-center  rtl:space-x-reverse"
         >
-          <img
-            src="/src/assets/logo-main.png"
-            className=" h-14"
-            alt="anmut-logo"
-          />
+          <img src="/assets/logo-main.png" className=" h-14" alt="anmut-logo" />
           {/* <span className="self-center text-xl md:text-2xl lg:text-3xl  tracking-widest font-bold whitespace-nowrap dark:text-white">
             ANMUT
           </span> */}
