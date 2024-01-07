@@ -2,6 +2,7 @@ import { MdConstruction, MdRealEstateAgent } from "react-icons/md";
 import { LuConstruction } from "react-icons/lu";
 import { LuChevronRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Section() {
   return (
@@ -51,8 +52,8 @@ function Section() {
             <LuChevronRight size={24} />
           </Link>
         </div>
-        <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
-          <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
+        <motion.div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
+          <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-red-400 mb-2">
             <MdRealEstateAgent className="me-1.5" size={25} />
             Work
           </span>
@@ -71,7 +72,7 @@ function Section() {
             Read More
             <LuChevronRight size={24} />
           </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
