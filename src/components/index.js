@@ -1,4 +1,5 @@
 export { default as NavBar } from "./NavBar";
+export { default as ShuffleHero } from "./ShuffleHero";
 export { default as Card } from "./Card";
 export { default as Team } from "./Team";
 export { default as Banner } from "./Banner";

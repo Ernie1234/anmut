@@ -1,15 +1,17 @@
 import {
   Banner,
-  Jumbotron,
+  // Jumbotron,
   ProjectSection,
   Section,
+  ShuffleHero,
   Team,
 } from "../components";
 
 function Home() {
   return (
     <>
-      <Jumbotron />
+      <ShuffleHero />
+      {/* <Jumbotron /> */}
       {/* <CompanyInfo /> */}
       {/* about anmut in the section component */}
       <Section />
