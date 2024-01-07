@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
+
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+
       <Footer />
     </>
   );
