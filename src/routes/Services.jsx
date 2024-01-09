@@ -5,7 +5,7 @@ import { MdOutlineArchitecture } from "react-icons/md";
 import { SiRenovatebot } from "react-icons/si";
 
 import { Link } from "react-router-dom";
-
+// this is to test if the git commit has work
 function Services() {
   return (
     <div>
@@ -56,7 +56,7 @@ function Services() {
               <p className="capitalize">fact about us </p>
             </div>
             <h1 className="capitalize text-3xl md:text-5xl font-black mt-2 text-white">
-              who we are
+              what we do
             </h1>
             <p className="text-justify mt-6 md:mt-8">
               An estate and property development company that specialize in
