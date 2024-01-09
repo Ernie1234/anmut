@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Card({ pic, headTitle, subTitle, tag }) {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <motion.div
+        initial={{ y: 200, opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
         <a href="#">
           <img className="rounded-t-lg" src={pic} alt="image" />
         </a>
@@ -41,7 +47,7 @@ function Card({ pic, headTitle, subTitle, tag }) {
             </svg>
           </Link>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

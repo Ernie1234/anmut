@@ -31,7 +31,7 @@ function Services() {
             <div className="flex mt-8">
               <Link
                 to="/"
-                className="uppercase py-2 px-4 rounded-lg bg-amber-500 border-2 border-transparent text-white text-md mr-4 hover:bg-amber-600"
+                className="uppercase py-2 px-4 rounded-lg bg-amber-500 border-2 border-transparent text-white text-md mr-4 hover:bg-amber-400"
               >
                 Connect with us
               </Link>

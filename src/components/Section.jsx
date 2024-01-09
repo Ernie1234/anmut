@@ -8,7 +8,13 @@ function Section() {
   return (
     <div className=" py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-slate-900">
       <div className="grid md:grid-cols-3 gap-8">
-        <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
+        <motion.div
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 0.4 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true }}
+          className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18"
+        >
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
             <MdConstruction className="me-1.5" size={25} />
             Concept
@@ -27,8 +33,13 @@ function Section() {
             Read More
             <LuChevronRight size={24} />
           </Link>
-        </div>
-        <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
+        </motion.div>
+        <motion.div
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 0.7 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18"
+        >
           <span className="text-lg font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-purple-400 mb-2">
             <LuConstruction className="me-1.5" size={25} />
             Identity
@@ -51,8 +62,13 @@ function Section() {
             Explore
             <LuChevronRight size={24} />
           </Link>
-        </div>
-        <motion.div className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18">
+        </motion.div>
+        <motion.div
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 1 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18"
+        >
           <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-red-400 mb-2">
             <MdRealEstateAgent className="me-1.5" size={25} />
             Work

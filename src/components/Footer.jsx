@@ -58,7 +58,7 @@ function Footer() {
                       className="hover:underline"
                       target="_blank"
                     >
-                      Email-info@rbddistrict.com
+                      anmutestateandpropertydev@gmail.com
                     </Link>
                   </li>
                 </ul>

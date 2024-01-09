@@ -15,7 +15,7 @@ function Banner() {
         <div
           id="informational-banner"
           tabIndex="-1"
-          className="sticky top-0 start-0 lg:px-32 z-50 flex flex-col justify-between w-full p-4 md:flex-row bg-slate-800"
+          className="lg:px-32 z-50 flex flex-col justify-between w-full p-4 md:flex-row bg-slate-800"
         >
           <div className="mb-4 md:mb-0 md:me-4">
             <h2 className="mb-1 text-2xl font-semibold text-gray-900 dark:text-white">

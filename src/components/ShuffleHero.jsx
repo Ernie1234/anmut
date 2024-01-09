@@ -8,7 +8,13 @@ const ShuffleHero = () => {
   return (
     <div className="bg-gray-800">
       <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto bg-gray-800 ">
-        <div>
+        <motion.div
+          initial={{ x: -200, opacity: 0 }}
+          // animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          whileInView={{ opacity: 1, x: 0 }}
+          // viewport={{ once: true }}
+        >
           <span className="block mb-4 text-xs md:text-sm text-slate-400 font-medium">
             BUILDING HAPPINESS,DELIVERING EXCELLENCE: Anmut breath new life to
             spaces,develops exceptionally
@@ -36,7 +42,7 @@ const ShuffleHero = () => {
               <IoChevronDownOutline />
             </Link>
           </div>
-        </div>
+        </motion.div>
         <ShuffleGrid />
       </section>
     </div>
