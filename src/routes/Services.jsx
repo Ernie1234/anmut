@@ -5,7 +5,7 @@ import { MdOutlineArchitecture } from "react-icons/md";
 import { SiRenovatebot } from "react-icons/si";
 
 import { Link } from "react-router-dom";
-// this is to test if the git commit has work
+
 function Services() {
   return (
     <div>
