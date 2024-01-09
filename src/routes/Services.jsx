@@ -3,7 +3,8 @@ import { IoChatbubblesOutline, IoConstructSharp } from "react-icons/io5";
 import { RiCustomerService2Line, RiEmotionHappyLine } from "react-icons/ri";
 import { MdOutlineArchitecture } from "react-icons/md";
 import { SiRenovatebot } from "react-icons/si";
-
+import { FaConnectdevelop } from "react-icons/fa";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 function Services() {
@@ -12,7 +13,12 @@ function Services() {
       <div className=" flex relative z-10 items-center  overflow-hidden bg-cover bg-no-repeat bg-[url('https://www.mhwilliams.com/wp-content/uploads/2020/01/11.jpeg')] bg-gray-800 bg-blend-multiply shadow-lg">
         <div className="w-full h-full bg-gradient-to-t from-slate-800/90 to-slate-900/90 absolute z-200"></div>
         <div className="container mx-auto px-6 flex relative py-16  max-w-screen-xl z-30">
-          <div className="sm:w-2/3 lg:w-2/5 flex flex-col justify-center relative z-20 ">
+          <motion.div
+            initial={{ x: -500, opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="sm:w-2/3 lg:w-2/5 flex flex-col justify-center relative z-20 "
+          >
             <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
             <h1 className="uppercase text-4xl md:text-6xl  font-black  leading-none text-white">
               A{" "}
@@ -42,15 +48,26 @@ function Services() {
                 Read more
               </Link>
             </div>
-          </div>
-          <div className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16">
+          </motion.div>
+          <motion.div
+            initial={{ x: 500, opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16"
+          >
             <img src="/assets/Construction-PNG-Image.png" className="w-full" />
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="bg-slate-900 flex items-center overflow-hidden ">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white">
-          <div id="section--1" className="flex flex-col justify-center">
+          <motion.div
+            initial={{ x: -500, opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileInView={{ opacity: 1, x: 0 }}
+            id="section--1"
+            className="flex flex-col justify-center"
+          >
             <div className="flex items-center gap-3 md:gap-7">
               <span className="w-12 h-1 bg-white"></span>
               <p className="capitalize">fact about us </p>
@@ -106,7 +123,7 @@ function Services() {
               </div>
               <div className="flex items-center mt-4 md:mt-8">
                 <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
-                  <IoChatbubblesOutline size={30} />
+                  <FaConnectdevelop size={30} />
                 </div>
                 <div>
                   <h6 className="font-semibold">Property Development</h6>
@@ -129,10 +146,15 @@ function Services() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="hidden lg:flex justify-end items-center">
+          </motion.div>
+          <motion.div
+            initial={{ x: 500, opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="hidden lg:flex justify-end items-center"
+          >
             <img src="/assets/Daco_4142804.png" className="w-full" />
-          </div>
+          </motion.div>
         </div>
       </div>
 
@@ -141,12 +163,17 @@ function Services() {
         className="flex items-center overflow-hidden bg-cover bg-no-repeat bg-[url('')] bg-gray-800 bg-blend-multiply shadow-lg relative "
         id="our--services"
       >
-        <div className="hidden lg:block absolute bottom-0 right-0 w-2/5">
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="hidden lg:block absolute bottom-0 right-0 w-2/5"
+        >
           <img
             src="/assets/image-from-rawpixel-id-12064744-original.png"
             className="w-full"
           />
-        </div>
+        </motion.div>
 
         <div className="container mx-auto px-6 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white">
           <div id="section--1" className="flex flex-col justify-center">
@@ -165,7 +192,10 @@ function Services() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-4 md:mt-8 max-w-screen-sm gap-6 md:gap-8 lg:gap-10">
             {/* 1st service card */}
-            <Link
+            <motion.Link
+              initial={{ y: 100, opacity: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
@@ -178,9 +208,12 @@ function Services() {
                   It is a long establish fact of hard workers
                 </p>
               </div>
-            </Link>
+            </motion.Link>
             {/* 2nd service card */}
-            <Link
+            <motion.Link
+              initial={{ y: 100, opacity: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
@@ -193,9 +226,12 @@ function Services() {
                   It is a long establish fact of hard workers
                 </p>
               </div>
-            </Link>
+            </motion.Link>
             {/* 3rd service card */}
-            <Link
+            <motion.Link
+              initial={{ y: 100, opacity: 0 }}
+              transition={{ duration: 1.1, ease: "easeOut" }}
+              whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
@@ -208,9 +244,12 @@ function Services() {
                   It is a long establish fact of hard workers
                 </p>
               </div>
-            </Link>
+            </motion.Link>
             {/* 4th service card */}
-            <Link
+            <motion.Link
+              initial={{ y: 100, opacity: 0 }}
+              transition={{ duration: 1.4, ease: "easeOut" }}
+              whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
@@ -223,7 +262,7 @@ function Services() {
                   It is a long establish fact of hard workers
                 </p>
               </div>
-            </Link>
+            </motion.Link>
           </div>
         </div>
       </div>

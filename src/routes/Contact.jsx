@@ -1,4 +1,4 @@
-import { IoCheckmarkCircle } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
@@ -7,7 +7,7 @@ function Contact() {
         <h1 className="mb-4 text-3xl font-extrabold tracking-tighter text-white md:text-5xl lg:text-6xl">
           Leading way in building & Civil contruction
         </h1>
-        <div className="hidden gap-2 md:gap-6 lg:gap-20 justify-center mt-5 md:mt-8">
+        {/* <div className="hidden gap-2 md:gap-6 lg:gap-20 justify-center mt-5 md:mt-8">
           <h5 className="flex items-center gap-1 md:gap-2">
             <IoCheckmarkCircle />
             <p className="capitalize text-white text-sm md:text-md lg:text-lg">
@@ -32,10 +32,13 @@ function Contact() {
               transparent price
             </p>
           </h5>
-        </div>
+        </div> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <form
+        <motion.form
+          initial={{ y: 500, opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          animate={{ opacity: 1, y: 0 }}
           action=""
           className="md:col-start-1 md:col-end-3 bg-amber-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
@@ -112,8 +115,13 @@ function Contact() {
           >
             Submit Request
           </button>
-        </form>
-        <div className="md:col-start-3 md:col-end-4 bg-amber-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg">
+        </motion.form>
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          animate={{ opacity: 1, y: 0 }}
+          className="md:col-start-3 md:col-end-4 bg-amber-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+        >
           <h3 className="font-semibold capitalize text-xl">Contact Info</h3>
           <div className="mt-3">
             <p className="capitalize text-lg text-white font-medium">
@@ -151,7 +159,7 @@ function Contact() {
           <p className="capitalize text-lg text-white font-medium mt-3">
             Do you have any question, just contact us to get help!
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
