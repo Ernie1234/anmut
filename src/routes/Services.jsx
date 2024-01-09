@@ -72,9 +72,11 @@ function Services() {
                   <IoConstructSharp size={30} />
                 </div>
                 <div>
-                  <h6 className="font-semibold">5 Yrs of Experience</h6>
+                  <h6 className="font-semibold">Consultancy</h6>
                   <p className="text-sm text-gray-400">
-                    It is a long establish fact of hard workers
+                    Expert and professional guidance to our clients in various
+                    aspects of real estate. Such as market analysis, property
+                    valuation, investment strategy
                   </p>
                 </div>
               </div>
@@ -83,9 +85,10 @@ function Services() {
                   <RiEmotionHappyLine size={30} />
                 </div>
                 <div>
-                  <h6 className="font-semibold">78+ Happy Clients</h6>
+                  <h6 className="font-semibold">Construction Services</h6>
                   <p className="text-gray-400 text-sm">
-                    It is a long establish fact of hard workers
+                    We build solid projects such as residential, industrial and
+                    commercial properties.
                   </p>
                 </div>
               </div>
@@ -94,9 +97,10 @@ function Services() {
                   <PiProjectorScreenChart size={30} />
                 </div>
                 <div>
-                  <h6 className="font-semibold">120+ Project Done</h6>
+                  <h6 className="font-semibold">Project Management</h6>
                   <p className="text-gray-400 text-sm">
-                    It is a long establish fact of hard workers
+                    Planning, organising and overseeing each project from
+                    inception to completion.
                   </p>
                 </div>
               </div>
@@ -105,9 +109,22 @@ function Services() {
                   <IoChatbubblesOutline size={30} />
                 </div>
                 <div>
-                  <h6 className="font-semibold">100+ Feedback</h6>
+                  <h6 className="font-semibold">Property Development</h6>
                   <p className="text-gray-400 text-sm">
-                    It is a long establish fact of hard workers
+                    Acquire, enhance and develop your property to increase
+                    value.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center mt-4 md:mt-8">
+                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                  <IoChatbubblesOutline size={30} />
+                </div>
+                <div>
+                  <h6 className="font-semibold">Renovation</h6>
+                  <p className="text-gray-400 text-sm">
+                    Upgrade by remodelling existing structures to your taste
+                    with the latest features, functionality or aesthetics.
                   </p>
                 </div>
               </div>
