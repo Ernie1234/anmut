@@ -42,17 +42,17 @@ function Contact() {
           action=""
           className="md:col-start-1 md:col-end-3 bg-amber-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
-          <div className="md:col-start-1 md:col-end-3 w-full">
-            <h2 className="font-bold tracking-normal capitalize text-white  md:text-base lg:text-2xl">
+          <div className=" md:col-start-1 md:col-end-3 w-full pb-5 md:pb-0">
+            <h2 className="font-bold tracking-normal capitalize text-white  text-xl md:text-xl lg:text-2xl">
               Require for a service
             </h2>
-            <p className="font-normal text-xl text-white pt-1 md:pt-3">
+            <p className="font-normal text-base md:text-xl text-white pt-1 md:pt-3">
               Complete control over products allow us to our customers the best
               quality prices and services. We take great pride in everything
               that we do in Anmut
             </p>
           </div>
-          <div>
+          <div className="col-start-1 col-end-3 md:col-end-2">
             <label htmlFor="name" className="sr-only">
               Name
             </label>
@@ -65,7 +65,7 @@ function Contact() {
           text-black placeholder-gray-400 focus:outline-none"
             />
           </div>
-          <div>
+          <div className="col-start-1 col-end-3 md:col-start-2 md:col-end-3">
             <label htmlFor="email" className="sr-only">
               Email Address
             </label>
@@ -79,7 +79,7 @@ function Contact() {
           text-black placeholder-gray-400 focus:outline-none"
             />
           </div>
-          <div>
+          <div className="col-start-1 col-end-3 md:col-end-2">
             <label htmlFor="phone" className="sr-only">
               Phone
             </label>
@@ -92,7 +92,7 @@ function Contact() {
           text-black placeholder-gray-400 focus:outline-none"
             />
           </div>
-          <div>
+          <div className="col-start-1 col-end-3 md:col-start-2 md:col-end-3 pb-5 md:pb-0">
             <label htmlFor="text" className="sr-only">
               Enter your service
             </label>

@@ -14,7 +14,7 @@ function Services() {
         <div className="w-full h-full bg-gradient-to-t from-slate-800/90 to-slate-900/90 absolute z-200"></div>
         <div className="container mx-auto px-6 flex relative py-16  max-w-screen-xl z-30">
           <motion.div
-            initial={{ x: -500, opacity: 0 }}
+            initial={{ x: -50, opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             whileInView={{ opacity: 1, x: 0 }}
             className="sm:w-2/3 lg:w-2/5 flex flex-col justify-center relative z-20 "
@@ -27,7 +27,7 @@ function Services() {
               </span>{" "}
               for you
             </h1>
-            <p className="text-sm sm:text-base text-gray-700 dark:text-white">
+            <p className="text-sm sm:text-base text-gray-300">
               Dimension of reality that makes change possible and
               understandable. An indefinite and homogeneous environment in which
               natural events and human existence take place. Providing
@@ -50,7 +50,7 @@ function Services() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ x: 500, opacity: 0 }}
+            initial={{ x: 50, opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             whileInView={{ opacity: 1, x: 0 }}
             className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16"
@@ -62,7 +62,7 @@ function Services() {
       <div className="bg-slate-900 flex items-center overflow-hidden ">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white">
           <motion.div
-            initial={{ x: -500, opacity: 0 }}
+            initial={{ x: -50, opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             whileInView={{ opacity: 1, x: 0 }}
             id="section--1"
@@ -148,7 +148,7 @@ function Services() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ x: 500, opacity: 0 }}
+            initial={{ x: 50, opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             whileInView={{ opacity: 1, x: 0 }}
             className="hidden lg:flex justify-end items-center"
@@ -164,7 +164,7 @@ function Services() {
         id="our--services"
       >
         <motion.div
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ y: 10, opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           whileInView={{ opacity: 1, y: 0 }}
           className="hidden lg:block absolute bottom-0 right-0 w-2/5"
@@ -193,7 +193,7 @@ function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 mt-4 md:mt-8 max-w-screen-sm gap-6 md:gap-8 lg:gap-10">
             {/* 1st service card */}
             <motion.Link
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
               whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
@@ -211,7 +211,7 @@ function Services() {
             </motion.Link>
             {/* 2nd service card */}
             <motion.Link
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
@@ -229,7 +229,7 @@ function Services() {
             </motion.Link>
             {/* 3rd service card */}
             <motion.Link
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               transition={{ duration: 1.1, ease: "easeOut" }}
               whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
@@ -247,7 +247,7 @@ function Services() {
             </motion.Link>
             {/* 4th service card */}
             <motion.Link
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               transition={{ duration: 1.4, ease: "easeOut" }}
               whileInView={{ opacity: 1, y: 0 }}
               to="/contact"
