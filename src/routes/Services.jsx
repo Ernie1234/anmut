@@ -19,7 +19,7 @@ function Services() {
             whileInView={{ opacity: 1, x: 0 }}
             className="sm:w-2/3 lg:w-2/5 flex flex-col justify-center relative z-20 "
           >
-            <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
+            <span className="w-20 h-2 bg-gray-300 mb-12"></span>
             <h1 className="uppercase text-4xl md:text-6xl  font-black  leading-none text-white">
               A{" "}
               <span className="text-amber-400 text-4xl md:text-7xl">

@@ -15,11 +15,11 @@ function Section() {
           // viewport={{ once: true }}
           className="bg-gray-800 border border-gray-700 rounded-lg p-6 md:p-18"
         >
-          <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 text-green-400 mb-2">
+          <span className="text-lg gap-2 font-bold inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-green-400 mb-2">
             <MdConstruction className="me-1.5" size={25} />
             Concept
           </span>
-          <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
+          <h2 className="text-gray-300 text-2xl font-extrabold mb-2">
             Our Vision
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
@@ -44,7 +44,7 @@ function Section() {
             <LuConstruction className="me-1.5" size={25} />
             Identity
           </span>
-          <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
+          <h2 className="text-gray-300 text-2xl font-extrabold mb-2">
             who we are
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
@@ -73,7 +73,7 @@ function Section() {
             <MdRealEstateAgent className="me-1.5" size={25} />
             Work
           </span>
-          <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">
+          <h2 className="text-gray-300 text-2xl font-extrabold mb-2">
             what we do
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
