@@ -5,7 +5,7 @@ function Card({ pic, headTitle, subTitle, tag }) {
   return (
     <>
       <motion.div
-        initial={{ y: 200, opacity: 0 }}
+        initial={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.5 }}
         whileInView={{ opacity: 1, y: 0 }}
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
