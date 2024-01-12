@@ -26,7 +26,7 @@ const ShuffleHero = () => {
             We specialize in developing properties that meet the needs of modern
             society.
           </p>
-          <div className="flex ">
+          <div className="flex gap-3 md:gap-6">
             <Link
               to="/about"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-600 hover:bg-yellow-500"
