@@ -13,15 +13,14 @@ function Team() {
           {`"Meet the team"`}
         </motion.h3>
         <motion.p
-          initial={{ x: -500, opacity: 0 }}
+          initial={{ x: -50, opacity: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="text-md font-semibold capitalize"
+          className="sm:text-sm md:text-md font-semibold capitalize text-gray-300"
         >
-          Our skilled team of{" "}
-          <span>architects, engineers, and construction professionals</span>{" "}
-          bring innovative and creative ideas to every project, delivering
-          <span>high-quality properties</span> that are designed to enhance the
+          Our skilled team of architects, engineers, and construction
+          professionals bring innovative and creative ideas to every project,
+          delivering high-quality properties that are designed to enhance the
           lives of our clients.
         </motion.p>
         <div className="flex flex-col justify-center items-center mt-5 md:mt-8 lg:mt-10">
@@ -38,7 +37,7 @@ function Team() {
               initial={{ x: 500, opacity: 0 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
               whileInView={{ opacity: 1, x: 0 }}
-              className="font-medium dark:text-white text-left"
+              className="font-medium text-white text-left"
             >
               <div>Jese Alabi</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">
