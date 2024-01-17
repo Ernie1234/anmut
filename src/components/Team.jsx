@@ -5,7 +5,7 @@ function Team() {
     <div className="py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-slate-800 text-white">
       <div className="flex flex-col items-center justify-center text-center">
         <motion.h3
-          initial={{ x: 500, opacity: 0 }}
+          initial={{ x: 50, opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           whileInView={{ opacity: 1, x: 0 }}
           className="text-2xl md:text-3xl lg:text-5xl font-bold my-3 md:my-5 capitalize tracking-wider font-sans"
@@ -26,7 +26,7 @@ function Team() {
         <div className="flex flex-col justify-center items-center mt-5 md:mt-8 lg:mt-10">
           <div className="flex items-center gap-4">
             <motion.img
-              initial={{ x: -500, opacity: 0 }}
+              initial={{ x: -50, opacity: 0 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
               whileInView={{ opacity: 1, x: 0 }}
               className="w-10 h-10 rounded-full object-cover"

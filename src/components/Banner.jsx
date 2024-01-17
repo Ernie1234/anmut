@@ -18,7 +18,7 @@ function Banner() {
             Experience sustainable living in our modern properties
           </p>
         </div>
-        <div className="flex items-center flex-shrink-0 py-8 md:py-0">
+        <div className="flex items-center gap-8 py-8 md:py-0 ">
           <Link
             to="/about"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-600 hover:bg-yellow-500"

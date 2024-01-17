@@ -28,11 +28,9 @@ function Services() {
               for you
             </h1>
             <p className="text-sm sm:text-base text-gray-300">
-              Dimension of reality that makes change possible and
-              understandable. An indefinite and homogeneous environment in which
-              natural events and human existence take place. Providing
-              Construction Solutions. Truly, the Future belongs to those who
-              believe of their dreams.
+              We are a remarkable team turning dreams into reality, and our
+              dedication forms the bedrock as we collaboratively create
+              something extraordinary.
             </p>
             <div className="flex mt-8">
               <Link
