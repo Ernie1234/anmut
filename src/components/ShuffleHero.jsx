@@ -19,9 +19,9 @@ const ShuffleHero = () => {
             BUILDING HAPPINESS,DELIVERING EXCELLENCE: Anmut breath new life to
             spaces,develops exceptionally
           </span>
-          <h3 className="text-4xl md:text-6xl text-white font-semibold">
+          <h1 className="text-4xl md:text-5xl text-white font-semibold">
             Anmut Estate And Property Development
-          </h3>
+          </h1>
           <p className="text-base md:text-lg text-white my-4 md:my-6">
             We specialize in developing properties that meet the needs of modern
             society.
@@ -29,7 +29,7 @@ const ShuffleHero = () => {
           <div className="flex gap-3 md:gap-6">
             <Link
               to="/about"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-600 hover:bg-yellow-500"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-amber-300 hover:bg-yellow-500"
             >
               Learn More
               <GoChevronRight />

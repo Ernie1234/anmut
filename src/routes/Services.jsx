@@ -22,7 +22,7 @@ function Services() {
             <span className="w-20 h-2 bg-gray-300 mb-12"></span>
             <h1 className="uppercase text-4xl md:text-6xl  font-black  leading-none text-white">
               A{" "}
-              <span className="text-amber-400 text-4xl md:text-7xl">
+              <span className="text-amber-300 text-4xl md:text-7xl">
                 great dream
               </span>{" "}
               for you
@@ -37,13 +37,13 @@ function Services() {
             <div className="flex mt-8">
               <Link
                 to="/"
-                className="uppercase py-2 px-4 rounded-lg bg-amber-500 border-2 border-transparent text-white text-md mr-4 hover:bg-amber-400"
+                className="uppercase py-2 px-4 rounded-lg bg-amber-300 border-2 border-transparent text-slate-800 text-md mr-4 hover:bg-amber-400"
               >
                 Connect with us
               </Link>
               <Link
                 to="/about"
-                className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white text-md"
+                className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-amber-300 text-amber-300 hover:bg-amber-300 hover:text-slate-800 text-md"
               >
                 Read more
               </Link>

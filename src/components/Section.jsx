@@ -23,8 +23,8 @@ function Section() {
             Our Vision
           </h2>
           <p className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4">
-            At Anmut, we envision a future where communities are revolutionized
-            through the ground-breaking construction solutions we offer’.
+            To pioneer a future where communities are revolutionized through our
+            ground-breaking construction solutions
           </p>
           <Link
             to="/about"

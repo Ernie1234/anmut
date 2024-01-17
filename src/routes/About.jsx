@@ -12,12 +12,12 @@ function About() {
           </h2>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
             Tranforming{" "}
-            <span className="text-amber-300 underline decoration-double decoration-amber-500 leading-normal">
+            <span className="text-yellow-200 underline decoration-double decoration-amber-300 leading-normal">
               {" "}
               Dreams
             </span>{" "}
             into Concrete
-            <span className="text-amber-300 underline decoration-double decoration-amber-500 leading-normal">
+            <span className="text-yellow-200 underline decoration-double decoration-amber-300 leading-normal">
               {" "}
               Realities!
             </span>
@@ -50,16 +50,14 @@ function About() {
             </h1>
 
             <p className="mt-5 leading-normal">
-              An estate and property development company that specialize in
+              An estate and property development company that specialises in
               creating exceptional and sustainable real estate projects that
-              meets the need of a modern society. We utilize sustainable
-              building practices and the latest technology to ensure our
-              projects are energy-efficient, cost-effective, and completed on
-              time and on budget.
+              meets the need of a modern society
             </p>
             <p className="mt-3 leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur laboriosam nulla quibusdam velit aliquam inventore.
+              We utilize sustainable building practices and the latest
+              technology to ensure our projects are energy-efficient,
+              cost-effective, and completed on time and on budget.
             </p>
           </div>
         </div>
@@ -71,17 +69,14 @@ function About() {
               Our Vision
             </h1>
             <p className="mt-5 leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              fugit aliquam repudiandae fugiat aperiam dolor modi rem asperiores
-              dolorum incidunt sequi dolores quasi natus odio explicabo adipisci
-              commodi nobis nulla doloremque illo. Eum optio molestiae ipsam nam
-              natus nulla nobis!
+              To pioneer a future where communities are revolutionized through
+              our ground-breaking construction solutions
             </p>
-            <p className="mt-3 leading-normal">
+            {/* <p className="mt-3 leading-normal">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
               mollitia nesciunt temporibus ad officia eveniet consequuntur ab
               quod culpa dignissimos!
-            </p>
+            </p> */}
           </div>
           <div className="w-full h-full rounded-3xl saturate-50 hover:filter-none hover:rounded-md overflow-hidden skew-y-3 transition-all hover:skew-y-0">
             <img
@@ -107,13 +102,10 @@ function About() {
               Our Mission
             </h1>
             <p className="mt-5 leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              fugit aliquam repudiandae fugiat aperiam dolor modi rem asperiores
-              dolorum incidunt sequi dolores quasi natus odio explicabo adipisci
-              commodi nobis nulla doloremque illo. Eum optio molestiae ipsam nam
-              natus nulla nobis!
+              To revolutionize communities through innovative construction,
+              building solutions, and collaborative partnerships.
             </p>
-            <p className="mt-3 leading-normal">
+            {/* <p className="mt-3 leading-normal">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
               mollitia nesciunt temporibus ad officia eveniet consequuntur ab
               quod culpa dignissimos!
@@ -121,7 +113,7 @@ function About() {
             <p className="mt-3 leading-normal">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur laboriosam nulla quibusdam velit aliquam inventore.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
