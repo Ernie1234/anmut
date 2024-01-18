@@ -20,7 +20,7 @@ function Home() {
       {/* anmut project section */}
       <ProjectSection />
       {/* meet the anmut team */}
-      {/* <Team /> */}
+      <Team />
     </>
   );
 }

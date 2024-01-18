@@ -18,7 +18,7 @@ function ProjectSection() {
           stay informed with our valuable resources
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 mt-8">
+      <div className="grid md:grid-cols-3 gap-8 mt-8 place-content-center">
         <Card
           tag="read estate"
           pic="https://images.pexels.com/photos/1475938/pexels-photo-1475938.jpeg?auto=compress&cs=tinysrgb&w=600"
