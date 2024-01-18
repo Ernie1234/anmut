@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
-import { About, Contact, Home, NotFound, Services } from "./routes";
+import { About, Contact, Home, NotFound, Services, TeamPage } from "./routes";
 // import ErrorPage from "./error-page";
 import { Footer, NavBar } from "./components";
 
@@ -14,6 +14,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/team-member" element={<TeamPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

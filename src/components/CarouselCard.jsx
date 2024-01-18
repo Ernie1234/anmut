@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function CarouselCard({ avatar, name, quote, job }) {
   return (
-    <Link to="/team">
+    <Link to="/team-member">
       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 ">
         <img
           className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"
