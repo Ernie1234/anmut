@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Card({ pic, headTitle, subTitle, tag }) {
+function Card({ pic, headTitle, subTitle, tag, url }) {
   return (
     <>
       <motion.div
@@ -26,8 +26,8 @@ function Card({ pic, headTitle, subTitle, tag }) {
             {subTitle}
           </p>
           <Link
-            to="/project"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-600 hover:bg-yellow-500"
+            to={url}
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-700 rounded-lg bg-amber-300 hover:bg-yellow-500"
           >
             Read more
             <svg

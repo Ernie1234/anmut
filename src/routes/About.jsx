@@ -1,6 +1,13 @@
+import { RxValue } from "react-icons/rx";
+import { IoChatbubblesOutline } from "react-icons/io5";
+import { MdOutlineArchitecture } from "react-icons/md";
+import { RiCustomerService2Line } from "react-icons/ri";
+import { SiRenovatebot } from "react-icons/si";
+import { motion } from "framer-motion";
+
 function About() {
   return (
-    <>
+    <div className="bg-slate-800">
       <header
         className="bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-gray-800 bg-blend-multiply shadow-lg relative"
         data-carousel-item
@@ -105,19 +112,112 @@ function About() {
               To revolutionize communities through innovative construction,
               building solutions, and collaborative partnerships.
             </p>
-            {/* <p className="mt-3 leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              mollitia nesciunt temporibus ad officia eveniet consequuntur ab
-              quod culpa dignissimos!
-            </p>
-            <p className="mt-3 leading-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur laboriosam nulla quibusdam velit aliquam inventore.
-            </p> */}
           </div>
         </div>
       </section>
-    </>
+
+      {/* core values section */}
+
+      <div className="container mx-auto px-6 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white border-t-amber-300 border-t-2">
+        <div id="section--1" className="flex flex-col justify-center">
+          <div className="flex items-center gap-3 md:gap-7">
+            <span className="w-12 h-1 bg-white"></span>
+            {/* <p className="capitalize">Our Services </p> */}
+          </div>
+          <h1 className="capitalize text-3xl md:text-5xl font-black mt-2 text-white">
+            core values
+          </h1>
+          <p className="mt-6 md:mt-8">
+            We revolutionize communities through our excense and innovative
+            values for construction, building solutions and collaborative
+            partnerships.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 mt-4 md:mt-8 max-w-screen-sm lg:max-w-full gap-6 md:gap-8 lg:gap-10">
+          {/* 1st service card */}
+          <motion.Link
+            initial={{ y: 10, opacity: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            to="/contact"
+            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+          >
+            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <IoChatbubblesOutline size={45} />
+            </div>
+            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <h6 className="font-semibold mb-3">Q</h6>
+              <p className="text-gray-400 text-sm">Quality</p>
+            </div>
+          </motion.Link>
+          {/* 2nd service card */}
+          <motion.Link
+            initial={{ y: 10, opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            to="/contact"
+            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+          >
+            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <RiCustomerService2Line size={45} />
+            </div>
+            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <h6 className="font-semibold mb-3">I</h6>
+              <p className="text-gray-400 text-sm">Integrity</p>
+            </div>
+          </motion.Link>
+          {/* 3rd service card */}
+          <motion.Link
+            initial={{ y: 10, opacity: 0 }}
+            transition={{ duration: 1.1, ease: "easeOut" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            to="/contact"
+            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+          >
+            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <SiRenovatebot size={45} />
+            </div>
+            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <h6 className="font-semibold mb-3">I</h6>
+              <p className="text-gray-400 text-sm">Innovation</p>
+            </div>
+          </motion.Link>
+          {/* 4th service card */}
+          <motion.Link
+            initial={{ y: 10, opacity: 0 }}
+            transition={{ duration: 1.4, ease: "easeOut" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            to="/contact"
+            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+          >
+            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <MdOutlineArchitecture size={45} />
+            </div>
+            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <h6 className="font-semibold mb-3">S</h6>
+              <p className="text-gray-400 text-sm">Sustainability</p>
+            </div>
+          </motion.Link>
+          {/* 5th service card */}
+          <motion.Link
+            initial={{ y: 10, opacity: 0 }}
+            transition={{ duration: 1.4, ease: "easeOut" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            to="/contact"
+            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+          >
+            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <RxValue size={45} />
+            </div>
+            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <h6 className="font-semibold mb-3">E</h6>
+              <p className="text-gray-400 text-sm">Excellence</p>
+            </div>
+          </motion.Link>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -28,7 +28,7 @@ function Section() {
           </p>
           <Link
             to="/about"
-            className=" text-amber-500 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Read More
             <LuChevronRight size={24} />
@@ -56,8 +56,8 @@ function Section() {
             budget.
           </p>
           <Link
-            to="/project"
-            className=" text-amber-500 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            to="/about"
+            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Explore
             <LuChevronRight size={24} />
@@ -82,8 +82,8 @@ function Section() {
           </p>
 
           <Link
-            to="/project"
-            className=" text-amber-500 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            to="/about"
+            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Read More
             <LuChevronRight size={24} />

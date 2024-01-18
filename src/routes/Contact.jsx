@@ -40,13 +40,13 @@ function Contact() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           animate={{ opacity: 1, y: 0 }}
           action=""
-          className="md:col-start-1 md:col-end-3 bg-amber-500 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+          className="md:col-start-1 md:col-end-3 bg-amber-300 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
           <div className=" md:col-start-1 md:col-end-3 w-full pb-5 md:pb-0">
-            <h2 className="font-bold tracking-normal capitalize text-white  text-xl md:text-xl lg:text-2xl">
+            <h2 className="font-bold tracking-normal capitalize text-slate-700  text-xl md:text-xl lg:text-2xl">
               Require for a service
             </h2>
-            <p className="font-normal text-base md:text-xl text-white pt-1 md:pt-3">
+            <p className="font-normal text-base md:text-xl text-slate-600 pt-1 md:pt-3">
               Complete control over products allow us to our customers the best
               quality prices and services. We take great pride in everything
               that we do in Anmut
@@ -120,43 +120,45 @@ function Contact() {
           initial={{ y: 100, opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:col-start-3 md:col-end-4 bg-amber-500 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+          className="md:col-start-3 md:col-end-4 bg-amber-300 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
-          <h3 className="font-semibold capitalize text-xl">Contact Info</h3>
+          <h3 className="font-semibold capitalize text-slate-700 text-xl">
+            Contact Info
+          </h3>
           <div className="mt-3">
-            <p className="capitalize text-lg text-white font-medium">
+            <p className="capitalize text-lg text-slate-700 font-medium">
               Quick contact
             </p>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               phone: 0706 278 3359
             </div>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               headquarters: Akure, Ondo
             </div>
           </div>
           <div className="mt-3">
-            <p className="capitalize text-lg text-white font-medium">
+            <p className="capitalize text-lg text-slate-700 font-medium">
               Company Size
             </p>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               Employees: 51 - 200
             </div>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               Associated Members: 3
             </div>
           </div>
           <div className="mt-3">
-            <p className="capitalize text-lg text-white font-medium">
+            <p className="capitalize text-lg text-slate-700 font-medium">
               Opening Hours
             </p>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               monday - friday
             </div>
-            <div className="text-white font-light capitalize text-base">
+            <div className="text-slate-600 font-light capitalize text-base">
               09:00 AM - 06:00 PM
             </div>
           </div>
-          <p className="capitalize text-lg text-white font-medium mt-3">
+          <p className="capitalize text-lg text-slate-700 font-medium mt-3">
             Do you have any question, just contact us to get help!
           </p>
         </motion.div>

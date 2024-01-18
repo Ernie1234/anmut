@@ -12,7 +12,7 @@ function ProjectSection() {
           className="text-2xl md:text-3xl lg:text-5xl font-bold my-3 md:my-5 capitalize tracking-wider"
           id="projects"
         >
-          discover the latest trends on projects
+          Check our latest Projects
         </h3>
         <p className="text-md font-semibold capitalize">
           stay informed with our valuable resources

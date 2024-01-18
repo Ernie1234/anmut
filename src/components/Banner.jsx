@@ -21,7 +21,7 @@ function Banner() {
         <div className="flex items-center gap-8 py-8 md:py-0 ">
           <Link
             to="/about"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-600 hover:bg-yellow-500"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-amber-300 hover:bg-yellow-500"
           >
             Discover More
             <GoChevronRight />

@@ -83,7 +83,7 @@ function Services() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <IoConstructSharp size={30} />
                 </div>
                 <div>
@@ -96,7 +96,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <RiEmotionHappyLine size={30} />
                 </div>
                 <div>
@@ -108,7 +108,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <PiProjectorScreenChart size={30} />
                 </div>
                 <div>
@@ -120,7 +120,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <FaConnectdevelop size={30} />
                 </div>
                 <div>
@@ -132,7 +132,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-500 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <IoChatbubblesOutline size={30} />
                 </div>
                 <div>
@@ -180,7 +180,7 @@ function Services() {
               <p className="capitalize">Our Services </p>
             </div>
             <h1 className="capitalize text-3xl md:text-5xl font-black mt-2 text-white">
-              what we are doing?
+              core values
             </h1>
             <p className="mt-6 md:mt-8">
               We revolutionize communities through innovative construction,
