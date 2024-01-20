@@ -23,7 +23,7 @@ export const teamMembers = [
     quote:
       "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "Lead Architect",
-    avatar: "../../public/assets/lead architech.jpg",
+    avatar: "/assets/lead architech.jpg",
   },
   {
     id: 4,

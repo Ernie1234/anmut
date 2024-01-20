@@ -53,7 +53,11 @@ function Services() {
             whileInView={{ opacity: 1, x: 0 }}
             className="hidden md:flex justify-end items-center md:w-2/3 lg:w-3/5 relative md:ml-8 lg:ml-16"
           >
-            <img src="/assets/Construction-PNG-Image.png" className="w-full" />
+            <img
+              src="/assets/Construction-PNG-Image.png"
+              alt="imageSection1"
+              className="w-full"
+            />
           </motion.div>
         </div>
       </div>
@@ -151,7 +155,11 @@ function Services() {
             whileInView={{ opacity: 1, x: 0 }}
             className="hidden lg:flex justify-end items-center"
           >
-            <img src="/assets/Daco_4142804.png" className="w-full" />
+            <img
+              src="/assets/Daco_4142804.png"
+              alt="imageSection2"
+              className="w-full"
+            />
           </motion.div>
         </div>
       </div>
@@ -169,6 +177,7 @@ function Services() {
         >
           <img
             src="/assets/image-from-rawpixel-id-12064744-original.png"
+            alt="imageSection3"
             className="w-full"
           />
         </motion.div>

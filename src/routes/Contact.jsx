@@ -7,32 +7,6 @@ function Contact() {
         <h1 className="mb-4 text-3xl font-extrabold tracking-tighter text-white md:text-5xl lg:text-6xl">
           Leading way in building & Civil contruction
         </h1>
-        {/* <div className="hidden gap-2 md:gap-6 lg:gap-20 justify-center mt-5 md:mt-8">
-          <h5 className="flex items-center gap-1 md:gap-2">
-            <IoCheckmarkCircle />
-            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
-              Professional staff
-            </p>
-          </h5>
-          <h5 className="flex items-center gap-1 md:gap-2">
-            <IoCheckmarkCircle />
-            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
-              100% satisfaction
-            </p>
-          </h5>
-          <h5 className="flex items-center gap-1 md:gap-2">
-            <IoCheckmarkCircle />
-            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
-              accurate testing
-            </p>
-          </h5>
-          <h5 className="flex items-center gap-1 md:gap-2">
-            <IoCheckmarkCircle />
-            <p className="capitalize text-white text-sm md:text-md lg:text-lg">
-              transparent price
-            </p>
-          </h5>
-        </div> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <motion.form

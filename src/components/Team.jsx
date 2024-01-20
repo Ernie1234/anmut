@@ -27,7 +27,22 @@ function Team() {
   return (
     <section className="bg-slate-800 flex flex-col justify-center items-center py-3 md:py-8 lg:py-12">
       <div className="container md:max-w-screen-md ">
-        <CarouselCard avatar={avatar} name={name} job={job} quote={quote} />
+        <CarouselCard
+          avatar={avatar}
+          name={name}
+          job={job}
+          quote={quote}
+          index={index}
+        />
+        {/* {teamMembers.map((item) => (
+          <CarouselCard
+            key={item.id}
+            avatar={avatar}
+            job={job}
+            quote={quote}
+            name={name}
+          />
+        ))} */}
 
         <div className="gap-4 md:gap-6 lg:gap-12 w-fit mt-10 mx-auto mb-0 flex justify-center items-center">
           <button className="bg-transparent cursor-pointer">

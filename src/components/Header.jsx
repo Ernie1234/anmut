@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function Header({ title, image, children }) {
   return (
     <header className="h-4/5 w-full overflow-hidden">
@@ -13,5 +15,11 @@ function Header({ title, image, children }) {
     </header>
   );
 }
+
+Header.propTypes = {
+  title: PropTypes.string,
+  image: PropTypes.string,
+  children: PropTypes.node,
+};
 
 export default Header;

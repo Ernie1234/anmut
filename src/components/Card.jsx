@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import PropTypes from "prop-types";
 function Card({ pic, headTitle, subTitle, tag, url }) {
   return (
     <>
@@ -11,7 +11,7 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#">
-          <img className="rounded-t-lg" src={pic} alt="image" />
+          <img className="rounded-t-lg" src={pic} alt={headTitle} />
         </a>
         <div className="p-5">
           <span className="text-xs md:text-sm lg:text-md font-medium me-2 px-2.5 py-1 rounded bg-gray-700 text-gray-300 capitalize">
@@ -51,5 +51,13 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
     </>
   );
 }
+
+Card.propTypes = {
+  pic: PropTypes.string,
+  headTitle: PropTypes.string,
+  subTitle: PropTypes.string,
+  tag: PropTypes.string,
+  url: PropTypes.string,
+};
 
 export default Card;
