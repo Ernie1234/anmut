@@ -20,22 +20,23 @@ function ProjectSection() {
       </div>
       <div className="grid md:grid-cols-3 gap-8 mt-8 place-content-center">
         <Card
-          tag="read estate"
-          pic="https://images.pexels.com/photos/1475938/pexels-photo-1475938.jpeg?auto=compress&cs=tinysrgb&w=600"
-          headTitle="the future of sustainble housing"
+          tag="Landing Property"
+          pic="/assets/Condominium.jpg"
+          headTitle="The Redeemed Business District"
+          url="https://www.instagram.com/p/Cz8g2OMoSe7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA%3D%3D"
           subTitle="RBD District, Akure
 Rbd district is a prestigious mixed-use real estate that seamlessly combines luxury and tranquility, located at Igbatoro road, Akure"
         />
         <Card
-          tag="Sustainablity"
-          pic="https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=600"
+          tag="Detached Duplex"
+          pic="/assets/Detached Duplex.jpg"
           headTitle="creating green spaces in urban areas"
           subTitle="Learn how urban areas are embracing green spaces for sustainable future"
         />
         <Card
-          tag="Interior Design"
-          pic="https://images.pexels.com/photos/276554/pexels-photo-276554.jpeg?auto=compress&cs=tinysrgb&w=600"
-          headTitle="Innovative Interior Design Ideas"
+          tag="School & Clinic"
+          pic="/assets/School and Clinic.jpg"
+          headTitle="Innovative Design Ideas"
           subTitle="Get inspired by the latest interior design trends and ideas."
         />
       </div>

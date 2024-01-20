@@ -40,6 +40,6 @@ export const teamMembers = [
     quote:
       "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
     job: "Pharmacist",
-    avatar: "../../public/assets/Daco_4399442.png",
+    avatar: "/assets/Daco_4399442.png",
   },
 ];

@@ -8,7 +8,7 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
         initial={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.5 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        className="max-w-sm  border rounded-lg shadow bg-gray-800 border-gray-700"
       >
         <a href="#">
           <img className="rounded-t-lg" src={pic} alt={headTitle} />
@@ -18,15 +18,15 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
             {tag}
           </span>
 
-          <h5 className="my-2.5 capitalize text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="my-2.5 capitalize text-xl font-bold tracking-tight  text-white">
             {headTitle}
           </h5>
 
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {subTitle}
-          </p>
+          <p className="mb-3 font-normal text-gray-400">{subTitle}</p>
           <Link
             to={url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-700 rounded-lg bg-amber-300 hover:bg-yellow-500"
           >
             Read more
