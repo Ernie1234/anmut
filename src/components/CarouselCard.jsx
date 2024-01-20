@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 function CarouselCard({ avatar, name, quote, job }) {
@@ -24,5 +25,11 @@ function CarouselCard({ avatar, name, quote, job }) {
     </Link>
   );
 }
-
+CarouselCard.propTypes = {
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  job: PropTypes.string,
+  quote: PropTypes.string,
+  url: PropTypes.string,
+};
 export default CarouselCard;
