@@ -134,7 +134,7 @@ function About() {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 mt-4 md:mt-8 max-w-screen-sm lg:max-w-full gap-6 md:gap-8 lg:gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-4 md:mt-8 max-w-screen-sm lg:max-w-full gap-6 md:gap-8 lg:gap-10">
           {/* 1st service card */}
           <motion.Link
             initial={{ y: 10, opacity: 0 }}

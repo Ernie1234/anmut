@@ -94,6 +94,15 @@ function NavBar() {
             </li>
             <li>
               <NavLink
+                to="/team-member"
+                onClick={smallScreenMenuOperation}
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+              >
+                Our Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/contact"
                 onClick={smallScreenMenuOperation}
                 className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"

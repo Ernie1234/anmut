@@ -189,7 +189,7 @@ function Services() {
               <p className="capitalize">Our Services </p>
             </div>
             <h1 className="capitalize text-3xl md:text-5xl font-black mt-2 text-white">
-              core values
+              You can trust us for
             </h1>
             <p className="mt-6 md:mt-8">
               We revolutionize communities through innovative construction,

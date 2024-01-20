@@ -132,9 +132,9 @@ function Contact() {
               09:00 AM - 06:00 PM
             </div>
           </div>
-          <p className="capitalize text-lg text-slate-700 font-medium mt-3">
+          {/* <p className="capitalize text-lg text-slate-700 font-medium mt-3">
             Do you have any question, just contact us to get help!
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </div>
