@@ -20,8 +20,7 @@ export const teamMembers = [
   {
     id: 3,
     name: "Paul Ayanda",
-    quote:
-      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+    quote: "Architect at Polays Int'l Concepts Ltd",
     job: "Lead Architect",
     avatar: "/assets/lead architech.jpg",
   },
