@@ -14,6 +14,7 @@ export const teamMembers = [
     quote:
       "Project Management | Real Estate & Property Development | Infrastructure Development & Finance",
     job: "Project Manager",
+    url: "https://www.linkedin.com/in/funsho-olowu/",
     avatar:
       "https://media.licdn.com/dms/image/C4D03AQFzYP4hA8XrFQ/profile-displayphoto-shrink_400_400/0/1565643752475?e=1710979200&v=beta&t=zAnEkQVc8Yaczp98baI0IY-dWBFrkY3oRp2qMZcATOg",
   },
@@ -23,6 +24,7 @@ export const teamMembers = [
     quote: "Architect at Polays Int'l Concepts Ltd",
     job: "Lead Architect",
     avatar: "/assets/lead architech.jpg",
+    url: "https://www.linkedin.com/in/a-o-paul-65944277/?originalSubdomain=ng",
   },
   {
     id: 4,
@@ -30,15 +32,8 @@ export const teamMembers = [
     quote:
       "Mass Communicator || Project Officer || Creative Writer & Content Creator || ||Human Resource Personnel|| || Presenter || Blogger ||Editor",
     job: "Creative Writer & Content Creator",
+    url: "https://www.linkedin.com/in/pelumi-olaosebikan/?originalSubdomain=ng",
     avatar:
       "https://media.licdn.com/dms/image/C4E03AQEavFtHSRLh0w/profile-displayphoto-shrink_800_800/0/1646264564888?e=1710979200&v=beta&t=akkSGseAdVdXq1Ei9on0wqgCT-Fn9lk1BZi1B6f4m50",
-  },
-  {
-    id: 5,
-    name: "Nana Yaa Dankwa",
-    quote:
-      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-    job: "Pharmacist",
-    avatar: "/assets/Daco_4399442.png",
   },
 ];
