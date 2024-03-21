@@ -14,7 +14,7 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
           <img className="rounded-t-lg" src={pic} alt={headTitle} />
         </a>
         <div className="p-5">
-          <span className="text-xs md:text-sm lg:text-md font-medium me-2 px-2.5 py-1 rounded bg-gray-700 text-gray-300 capitalize">
+          <span className="text-xs md:text-sm lg:text-md font-medium me-2 px-2.5 py-1 rounded bg-[#9E9E9E] text-white capitalize">
             {tag}
           </span>
 
@@ -22,12 +22,12 @@ function Card({ pic, headTitle, subTitle, tag, url }) {
             {headTitle}
           </h5>
 
-          <p className="mb-3 font-normal text-gray-400">{subTitle}</p>
+          <p className="mb-3 font-normal text-[#9E9E9E]">{subTitle}</p>
           <Link
             to={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-700 rounded-lg bg-amber-300 hover:bg-yellow-500"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-[#0E1217] rounded-lg bg-[#FED835] hover:bg-yellow-500"
           >
             Read more
             <svg

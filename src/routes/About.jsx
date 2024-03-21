@@ -12,19 +12,19 @@ function About() {
         className="bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-gray-800 bg-blend-multiply shadow-lg relative"
         data-carousel-item
       >
-        <div className="w-full h-full bg-gradient-to-t from-slate-900/50 absolute z-0"></div>
+        <div className="w-full h-full bg-gradient-to-t from-[#0E1217]/50 absolute z-0"></div>
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-32 z-30">
           <h2 className="text-md md:text-lg lg:text-xl font-bold tracking-wider uppercase text-white">
             about us
           </h2>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tighter  text-white md:text-5xl lg:text-6xl">
             Tranforming{" "}
-            <span className="text-yellow-200 underline decoration-double decoration-amber-300 leading-normal">
+            <span className="text-yellow-200 underline decoration-double decoration-[#FED835] leading-normal">
               {" "}
               Dreams
             </span>{" "}
             into Concrete
-            <span className="text-yellow-200 underline decoration-double decoration-amber-300 leading-normal">
+            <span className="text-yellow-200 underline decoration-double decoration-[#FED835] leading-normal">
               {" "}
               Realities!
             </span>
@@ -69,7 +69,7 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="bg-slate-900 text-white px-5 py-8 md:py-12">
+      <section className="bg-[#0E1217] text-white px-5 py-8 md:py-12">
         <div className="px-4 md:px-8 lg:px-12 mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-10 p-2 md:p-10">
           <div className="flex flex-col justify-center items-start ">
             <h1 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-wide underline">
@@ -118,7 +118,7 @@ function About() {
 
       {/* core values section */}
 
-      <div className="container mx-auto px-6 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white border-t-amber-300 border-t-2">
+      <div className="container mx-auto px-6 relative gap-3 md:gap-8 py-16 max-w-screen-xl text-white border-t-[#FED835] border-t-2">
         <div id="section--1" className="flex flex-col justify-center">
           <div className="flex items-center gap-3 md:gap-7">
             <span className="w-12 h-1 bg-white"></span>
@@ -141,12 +141,12 @@ function About() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             whileInView={{ opacity: 1, y: 0 }}
             to="/contact"
-            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            className="bg-[#0E1217] shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
           >
-            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+            <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
               <IoChatbubblesOutline size={45} />
             </div>
-            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+            <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
               <h6 className="font-semibold mb-3">Q</h6>
               <p className="text-gray-400 text-sm">Quality</p>
             </div>
@@ -157,12 +157,12 @@ function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             whileInView={{ opacity: 1, y: 0 }}
             to="/contact"
-            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            className="bg-[#0E1217] shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
           >
-            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+            <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
               <RiCustomerService2Line size={45} />
             </div>
-            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+            <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
               <h6 className="font-semibold mb-3">I</h6>
               <p className="text-gray-400 text-sm">Integrity</p>
             </div>
@@ -173,12 +173,12 @@ function About() {
             transition={{ duration: 1.1, ease: "easeOut" }}
             whileInView={{ opacity: 1, y: 0 }}
             to="/contact"
-            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            className="bg-[#0E1217] shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
           >
-            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+            <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
               <SiRenovatebot size={45} />
             </div>
-            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+            <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
               <h6 className="font-semibold mb-3">I</h6>
               <p className="text-gray-400 text-sm">Innovation</p>
             </div>
@@ -189,12 +189,12 @@ function About() {
             transition={{ duration: 1.4, ease: "easeOut" }}
             whileInView={{ opacity: 1, y: 0 }}
             to="/contact"
-            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            className="bg-[#0E1217] shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
           >
-            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+            <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
               <MdOutlineArchitecture size={45} />
             </div>
-            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+            <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
               <h6 className="font-semibold mb-3">S</h6>
               <p className="text-gray-400 text-sm">Sustainability</p>
             </div>
@@ -205,12 +205,12 @@ function About() {
             transition={{ duration: 1.4, ease: "easeOut" }}
             whileInView={{ opacity: 1, y: 0 }}
             to="/contact"
-            className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
+            className="bg-[#0E1217] shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
           >
-            <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+            <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
               <RxValue size={45} />
             </div>
-            <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+            <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
               <h6 className="font-semibold mb-3">E</h6>
               <p className="text-gray-400 text-sm">Excellence</p>
             </div>

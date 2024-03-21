@@ -18,7 +18,7 @@ function NavBar() {
     }
   };
   return (
-    <nav className="bg-gray-900 shadow-lg sticky z-[200]">
+    <nav className="bg-[#0E1217] shadow-lg sticky z-[200]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
@@ -33,7 +33,7 @@ function NavBar() {
           <Link to="/contact">
             <button
               type="button"
-              className="text-slate-800 bg-amber-300 hover:bg-amber-200 font-medium rounded-lg text-sm px-4 py-2 text-center"
+              className="text-slate-800 bg-[#FED835] hover:bg-amber-400 font-medium rounded-lg text-sm px-4 py-2 text-center"
             >
               Get started
             </button>
@@ -68,7 +68,7 @@ function NavBar() {
               <NavLink
                 to="/"
                 onClick={smallScreenMenuOperation}
-                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-[#FED835] hover:text-gray-400"
                 aria-current="page"
               >
                 Home
@@ -78,7 +78,7 @@ function NavBar() {
               <NavLink
                 to="/about"
                 onClick={smallScreenMenuOperation}
-                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-[#FED835] hover:text-gray-400"
               >
                 About
               </NavLink>
@@ -87,7 +87,7 @@ function NavBar() {
               <NavLink
                 to="/services"
                 onClick={smallScreenMenuOperation}
-                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-[#FED835] hover:text-gray-400"
               >
                 Services
               </NavLink>
@@ -96,7 +96,7 @@ function NavBar() {
               <NavLink
                 to="/team-member"
                 onClick={smallScreenMenuOperation}
-                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-[#FED835] hover:text-gray-400"
               >
                 Our Team
               </NavLink>
@@ -105,7 +105,7 @@ function NavBar() {
               <NavLink
                 to="/contact"
                 onClick={smallScreenMenuOperation}
-                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-amber-300 hover:text-gray-400"
+                className="block py-2 px-3 md:p-0 text-white aria-[current=page]:text-[#FED835] hover:text-gray-400"
               >
                 Contact
               </NavLink>

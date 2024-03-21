@@ -5,7 +5,7 @@ import Card from "./Card";
 
 function ProjectSection() {
   return (
-    <div className="py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-slate-900 text-white">
+    <div className="py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-[#0E1217] text-white">
       <div className="flex flex-col items-center justify-center text-center">
         <p className="text-md font-semibold capitalize">insights</p>
         <h3

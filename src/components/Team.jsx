@@ -49,14 +49,14 @@ function Team() {
             <IoIosArrowDropleftCircle
               onClick={prevTestHandler}
               size={45}
-              className="text-amber-300"
+              className="text-[#FED835]"
             />
           </button>
           <button className="bg-transparent cursor-pointer">
             <IoIosArrowDroprightCircle
               onClick={nextTestHandler}
               size={45}
-              className="text-amber-300"
+              className="text-[#FED835]"
             />
           </button>
         </div>

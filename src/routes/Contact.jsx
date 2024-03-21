@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className="bg-stone-800 text-white p-8 md:p-12 lg:p-16 ">
+    <div className="bg-[#0E1217] text-white p-8 md:p-12 lg:p-16 ">
       <div className="mb-5 md:mb-10 text-center">
         <h1 className="mb-4 text-3xl font-extrabold tracking-tighter text-white md:text-5xl lg:text-6xl">
           Leading way in building & Civil contruction
@@ -14,7 +14,7 @@ function Contact() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           animate={{ opacity: 1, y: 0 }}
           action=""
-          className="md:col-start-1 md:col-end-3 bg-amber-300 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+          className="md:col-start-1 md:col-end-3 bg-[#FED835] w-full h-full grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3 lg:gap-5 py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
           <div className=" md:col-start-1 md:col-end-3 w-full pb-5 md:pb-0">
             <h2 className="font-bold tracking-normal capitalize text-slate-700  text-xl md:text-xl lg:text-2xl">
@@ -94,7 +94,7 @@ function Contact() {
           initial={{ y: 100, opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:col-start-3 md:col-end-4 bg-amber-300 w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
+          className="md:col-start-3 md:col-end-4 bg-[#FED835] w-full h-full py-6 px-8 rounded-sm md:rounded-md lg:rounded-lg shadow-lg"
         >
           <h3 className="font-semibold capitalize text-slate-700 text-xl">
             Contact Info

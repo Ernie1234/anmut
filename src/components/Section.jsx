@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Section() {
   return (
-    <div className=" py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-slate-900">
+    <div className=" py-10 md:py-16 lg:py-20 px-16 md:px20 lg:px-28 bg-[#0E1217]">
       <div className="grid md:grid-cols-3 gap-8">
         <motion.div
           initial={{ y: 200, opacity: 0 }}
@@ -28,7 +28,7 @@ function Section() {
           </p>
           <Link
             to="/about"
-            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            className=" text-[#FED835] hover:bg-amber-400 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Read More
             <LuChevronRight size={24} />
@@ -57,7 +57,7 @@ function Section() {
           </p>
           <Link
             to="/about"
-            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            className=" text-[#FED835] hover:bg-amber-400 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Explore
             <LuChevronRight size={24} />
@@ -83,7 +83,7 @@ function Section() {
 
           <Link
             to="/about"
-            className=" text-amber-300 hover:bg-amber-500 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
+            className=" text-[#FED835] hover:bg-amber-400 hover:text-slate-100 rounded-md px-4 py-1 font-medium text-lg inline-flex items-center gap-3"
           >
             Read More
             <LuChevronRight size={24} />

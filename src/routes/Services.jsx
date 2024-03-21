@@ -22,7 +22,7 @@ function Services() {
             <span className="w-20 h-2 bg-gray-300 mb-12"></span>
             <h1 className="uppercase text-4xl md:text-6xl  font-black  leading-none text-white">
               A{" "}
-              <span className="text-amber-300 text-4xl md:text-7xl">
+              <span className="text-[#FED835] text-4xl md:text-7xl">
                 great dream
               </span>{" "}
               for you
@@ -35,13 +35,13 @@ function Services() {
             <div className="flex mt-8">
               <Link
                 to="/"
-                className="uppercase py-2 px-4 rounded-lg bg-amber-300 border-2 border-transparent text-slate-800 text-md mr-4 hover:bg-amber-400"
+                className="uppercase py-2 px-4 rounded-lg bg-[#FED835] border-2 border-transparent text-slate-800 text-md mr-4 hover:bg-amber-400"
               >
                 Connect with us
               </Link>
               <Link
                 to="/about"
-                className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-amber-300 text-amber-300 hover:bg-amber-300 hover:text-slate-800 text-md"
+                className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-[#FED835] text-[#FED835] hover:bg-[#FED835] hover:text-slate-800 text-md"
               >
                 Read more
               </Link>
@@ -87,7 +87,7 @@ function Services() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-[#FED835] p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <IoConstructSharp size={30} />
                 </div>
                 <div>
@@ -100,7 +100,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-[#FED835] p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <RiEmotionHappyLine size={30} />
                 </div>
                 <div>
@@ -112,7 +112,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-[#FED835] p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <PiProjectorScreenChart size={30} />
                 </div>
                 <div>
@@ -124,7 +124,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-[#FED835] p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <FaConnectdevelop size={30} />
                 </div>
                 <div>
@@ -136,7 +136,7 @@ function Services() {
                 </div>
               </div>
               <div className="flex items-center mt-4 md:mt-8">
-                <div className="bg-amber-300 p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
+                <div className="bg-[#FED835] p-1.5 md:p-3 mr-3 border-white border-2 flex justify-center items-center">
                   <IoChatbubblesOutline size={30} />
                 </div>
                 <div>
@@ -206,10 +206,10 @@ function Services() {
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
-              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
                 <IoChatbubblesOutline size={45} />
               </div>
-              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
                 <h6 className="font-semibold mb-3">Fast Operation</h6>
                 <p className="text-gray-400 text-sm">
                   It is a long establish fact of hard workers
@@ -224,10 +224,10 @@ function Services() {
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
-              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
                 <RiCustomerService2Line size={45} />
               </div>
-              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
                 <h6 className="font-semibold mb-3">Consultation</h6>
                 <p className="text-gray-400 text-sm">
                   It is a long establish fact of hard workers
@@ -242,10 +242,10 @@ function Services() {
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
-              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
                 <SiRenovatebot size={45} />
               </div>
-              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
                 <h6 className="font-semibold mb-3">Renovation</h6>
                 <p className="text-gray-400 text-sm">
                   It is a long establish fact of hard workers
@@ -260,10 +260,10 @@ function Services() {
               to="/contact"
               className="bg-slate-900 shadow-md p-2 md:p-4 mr-3 flex flex-col justify-center items-start hover:shadow-lg hover:bg-slate-950 hover:scale-[1.02]"
             >
-              <div className="border-2 bottom-2 border-amber-300 p-3 text-3xl">
+              <div className="border-2 bottom-2 border-[#FED835] p-3 text-3xl">
                 <MdOutlineArchitecture size={45} />
               </div>
-              <div className="mt-3 md:mt-6 border-l-2 border-l-amber-300 pl-4">
+              <div className="mt-3 md:mt-6 border-l-2 border-l-[#FED835] pl-4">
                 <h6 className="font-semibold mb-3">Architecture</h6>
                 <p className="text-gray-400 text-sm">
                   It is a long establish fact of hard workers

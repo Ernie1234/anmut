@@ -11,7 +11,7 @@ function Banner() {
         className="lg:px-32 z-50 flex flex-col justify-between w-full p-4 md:flex-row bg-slate-800"
       >
         <div className="mb-4 md:mb-0 md:me-4">
-          <h2 className="mb-1 text-2xl font-semibold text-gray-900 dark:text-white">
+          <h2 className="mb-1 text-2xl font-semibold text-[#9E9E9E] dark:text-white">
             Discover Our Amazing Property Selection
           </h2>
           <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -21,7 +21,7 @@ function Banner() {
         <div className="flex items-center gap-8 py-8 md:py-0 ">
           <Link
             to="/about"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-amber-300 hover:bg-yellow-500"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-[#FED835] hover:bg-yellow-400"
           >
             Discover More
             <GoChevronRight />

@@ -29,7 +29,7 @@ const ShuffleHero = () => {
           <div className="flex gap-3 md:gap-6">
             <Link
               to="/about"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-amber-300 hover:bg-yellow-500"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-800 rounded-lg bg-[#FED835] hover:bg-yellow-400"
             >
               Learn More
               <GoChevronRight />
