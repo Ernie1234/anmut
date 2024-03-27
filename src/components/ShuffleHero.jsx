@@ -69,67 +69,67 @@ const shuffle = (array) => {
 const squareData = [
   {
     id: 1,
-    src: "https://media.licdn.com/dms/image/D4D22AQG8PlFVxJtSRw/feedshare-shrink_800/0/1689948997077?e=1708560000&v=beta&t=Ncjm3cbCf3MF0NDZuFsEZ38z84IeGvXDcK7Ja0cUQWs",
+    src: "/assets/snap1.jpg",
   },
   {
     id: 2,
-    src: "https://media.licdn.com/dms/image/D4D22AQGMk7UPC6m3Bw/feedshare-shrink_800/0/1694973986998?e=1708560000&v=beta&t=CvBA1KuJdJNpI5_Kx8-UrCjIVussVoFPRyR7_1659Lk",
+    src: "/assets/snap2.jpg",
   },
   {
     id: 3,
-    src: "https://media.licdn.com/dms/image/D4D22AQE8WiVIPEnJLw/feedshare-shrink_800/0/1689347283779?e=1708560000&v=beta&t=ab27WQukCW2KNJ0sF1zUFCNQcOGqvX7oOPk_Dib1z7I",
+    src: "/assets/snap3.jpg",
   },
   {
     id: 4,
-    src: "https://media.licdn.com/dms/image/D4D0BAQHIT4EzNCCjWA/company-logo_200_200/0/1687533863590?e=1714003200&v=beta&t=xRobOnKe9yTJCPX1wfHLMC_z22Cf9P6j9s3_ViQvoN8",
+    src: "/assets/snap16.jpg",
   },
   {
     id: 5,
-    src: "https://media.licdn.com/dms/image/D4D22AQFCmXRlEyfR6Q/feedshare-shrink_800/0/1705069500043?e=1708560000&v=beta&t=ApbCOlYTLxKDH9flBDQEPDdoHWqgT8-Ol7kbS1ieUys",
+    src: "/assets/snap4.jpg",
   },
   {
     id: 6,
-    src: "https://media.licdn.com/dms/image/D4D22AQFL0QTMimegSw/feedshare-shrink_800/0/1700814436825?e=1708560000&v=beta&t=BaMHUUU2DJYOxOcTPpUlMmw5TMgr5p7Qv9WQhlfBRY8",
+    src: "/assets/snap5.jpg",
   },
   {
     id: 7,
-    src: "https://media.licdn.com/dms/image/D4D22AQFxwWyu9WG3dQ/feedshare-shrink_800/0/1698861517401?e=1708560000&v=beta&t=bV3lGU8JH7D7roBvwqU5tzY8BmOH_ozWFvJ52t8_mao",
+    src: "/assets/snap6.jpg",
   },
   {
     id: 8,
-    src: "https://media.licdn.com/dms/image/D4D22AQFq4zlzXnp0lw/feedshare-shrink_800/0/1688999729670?e=1708560000&v=beta&t=zAb3-_PhiikbvbS-Ep2mUZO5Pl5JSxggCiTFNDwDewg",
+    src: "/assets/snap7.jpg",
   },
   {
     id: 9,
-    src: "https://media.licdn.com/dms/image/D4D22AQHsebMYHJxyRQ/feedshare-shrink_800/0/1690205446429?e=1708560000&v=beta&t=x1UCEMYcu4b0GfzyiDVZbWht6aRXufpjohhite1nYKQ",
+    src: "/assets/snap8.jpg",
   },
   {
     id: 10,
-    src: "https://media.licdn.com/dms/image/D4D22AQGV6dP1BCo_Xg/feedshare-shrink_800/0/1694620440102?e=1708560000&v=beta&t=inmd9CqSxVtiE3d19C3iwF8uQMB6CNMQpHMSbGpz1n8",
+    src: "/assets/snap9.jpg",
   },
   {
     id: 11,
-    src: "https://media.licdn.com/dms/image/D4D22AQHyVXPT0O8LqQ/feedshare-shrink_800/0/1694974039419?e=1708560000&v=beta&t=F8CYLw5_mJYCVQHHvRq6hHT1FKpgr98LF3oYOPEu0IM",
+    src: "/assets/snap10.jpg",
   },
   {
     id: 12,
-    src: "https://media.licdn.com/dms/image/D4D22AQE2zEO71bD0dA/feedshare-shrink_800/0/1701106337374?e=1708560000&v=beta&t=Fus44jXUjdkbWu-osEK1R1qqzs9hUXRUDahfVUR-oh0",
+    src: "/assets/snap11.jpg",
   },
   {
     id: 13,
-    src: "https://media.licdn.com/dms/image/D4D22AQGdHkbb2cVf8A/feedshare-shrink_800/0/1702380351142?e=1708560000&v=beta&t=e7vF0vK_pVnUbrjw3x0kwVP8ex5_753DwwfP8lQKZW8",
+    src: "/assets/snap12.jpg",
   },
   {
     id: 14,
-    src: "https://media.licdn.com/dms/image/D4D22AQFe05lJ7lCg3g/feedshare-shrink_800/0/1701420736900?e=1708560000&v=beta&t=18vsA6eFam3Fr8tzxzc0hQF5HmCDa99zNK3AVR-2ykI",
+    src: "/assets/snap13.jpg",
   },
   {
     id: 15,
-    src: "https://media.licdn.com/dms/image/D4D22AQHLhAYnNGEFpA/feedshare-shrink_800/0/1687265683189?e=1707350400&v=beta&t=zGmniSf0gUHAdMgWL-oiK_5Q2PIjvqmHdGvOooRMu_s",
+    src: "/assets/snap14.jpg",
   },
   {
     id: 16,
-    src: "https://media.licdn.com/dms/image/D5622AQFAd2-ZIfPKIA/feedshare-shrink_800/0/1700234253392?e=1707350400&v=beta&t=_KE3yBBzs5mc4va3kLiXGnD9xDdFYCfSVBjHrlbSpek",
+    src: "/assets/snap15.jpg",
   },
 ];
 

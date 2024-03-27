@@ -36,4 +36,14 @@ export const teamMembers = [
     avatar:
       "https://media.licdn.com/dms/image/C4E03AQEavFtHSRLh0w/profile-displayphoto-shrink_800_800/0/1646264564888?e=1710979200&v=beta&t=akkSGseAdVdXq1Ei9on0wqgCT-Fn9lk1BZi1B6f4m50",
   },
+  {
+    id: 5,
+    name: "Victor Akomolehin",
+    quote:
+      "Mass Communicator || Project Officer || Creative Writer & Content Creator || ||Human Resource Personnel|| || Presenter || Blogger ||Editor",
+    job: "Creative Writer & Content Creator",
+    url: "https://www.linkedin.com/in/pelumi-olaosebikan/?originalSubdomain=ng",
+    avatar:
+      "https://media.licdn.com/dms/image/C4E03AQEavFtHSRLh0w/profile-displayphoto-shrink_800_800/0/1646264564888?e=1710979200&v=beta&t=akkSGseAdVdXq1Ei9on0wqgCT-Fn9lk1BZi1B6f4m50",
+  },
 ];
