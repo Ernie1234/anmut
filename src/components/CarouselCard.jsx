@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-function CarouselCard({ avatar, name, quote, job }) {
+function CarouselCard({ avatar, name, job }) {
   return (
     <Link to="/team-member">
       {/* <figure className="md:flex rounded-xl p-8 md:p-0 bg-slate-800 "> */}
@@ -16,9 +16,6 @@ function CarouselCard({ avatar, name, quote, job }) {
         />
         {/* <div className="pt-6 md:p-8 text-center md:text-left space-y-4"> */}
         <div className="pt-6 md:p-8 text-center space-y-4">
-          <blockquote>
-            <p className="text-lg text-slate-200 font-medium">{`"${quote}"`}</p>
-          </blockquote>
           <figcaption className="font-medium">
             <div className="text-amber-300">{name}</div>
             <div className="text-slate-400">{job}</div>
@@ -32,7 +29,6 @@ CarouselCard.propTypes = {
   avatar: PropTypes.string,
   name: PropTypes.string,
   job: PropTypes.string,
-  quote: PropTypes.string,
   url: PropTypes.string,
 };
 export default CarouselCard;

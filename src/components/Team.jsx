@@ -25,7 +25,7 @@ function Team() {
   };
 
   return (
-    <section className="bg-slate-800 flex flex-col justify-center items-center py-3 md:py-8 lg:py-12">
+    <section className="bg-slate-800 flex flex-col justify-center items-center py-3 md:py-6 lg:py-10">
       <div className="container md:max-w-screen-md ">
         <CarouselCard
           avatar={avatar}
@@ -44,7 +44,7 @@ function Team() {
           />
         ))} */}
 
-        <div className="gap-4 md:gap-6 lg:gap-12 w-fit mt-10 mx-auto mb-0 flex justify-center items-center">
+        <div className="gap-x-4 md:gap-x-6 lg:gap-x-12 w-fit mx-auto mb-0 flex justify-center items-center">
           <button className="bg-transparent cursor-pointer">
             <IoIosArrowDropleftCircle
               onClick={prevTestHandler}
